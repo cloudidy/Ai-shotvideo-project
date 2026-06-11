@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 0,
+      "endTime": 2,
+      "type": "opening",
+      "label": "开场盘问通话",
+      "description": "一方发现对方正在打电话，开口质问对方通话对象是谁，对方回应是客户",
+      "intensity": 3,
+      "keyDialogue": "你在跟谁打电话 客户"
+    },
+    {
+      "startTime": 43,
+      "endTime": 44,
+      "type": "climax",
+      "label": "下达搬离通牒",
+      "description": "人物放狠话表示如果房头再不出现，自己就要直接从这里搬出去，冲突升级",
+      "intensity": 7,
+      "keyDialogue": "再不叫就从这儿搬出去"
+    },
+    {
+      "startTime": 60,
+      "endTime": 62,
+      "type": "climax",
+      "label": "立下出头誓言",
+      "description": "主角情绪激昂当众喊出自己必定要出人头地的宣言，属于强烈的情感爆发点",
+      "intensity": 9,
+      "keyDialogue": "老子一定会出人头地"
+    },
+    {
+      "startTime": 79,
+      "endTime": 83,
+      "type": "climax",
+      "label": "商议婚事安排",
+      "description": "长辈告知刚回国的思雨，两人的婚事也该正式提上日程了，剧情转向婚恋主线",
+      "intensity": 8,
+      "keyDialogue": "思雨啊 既然现在回国了 婚事也该提上日程了"
+    },
+    {
+      "startTime": 84,
+      "endTime": 86,
+      "type": "closing",
+      "label": "结尾留设悬念",
+      "description": "有人紧接着追问婚事今天能不能敲定，后续走向不明留下钩子",
+      "intensity": 6,
+      "keyDialogue": "今天能提上吗"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 17,
+      "endTime": 20,
+      "type": "climax",
+      "label": "陛下震怒下旨",
+      "description": "皇帝因蛮人掺和公主招亲仪式大发雷霆，下令处置当初为公主招亲提供庇护的相关人",
+      "intensity": 7,
+      "keyDialogue": "把当初献侧为公主庇护招信的人给我砍了"
+    },
+    {
+      "startTime": 35,
+      "endTime": 40,
+      "type": "climax",
+      "label": "议定擂台比武",
+      "description": "大臣向皇帝献策，提出要在擂台上打败三国皇亲才能保住大言的颜面",
+      "intensity": 6,
+      "keyDialogue": "只有在擂台上光明穿大的打败他们，才能够保住我大爷的颜面"
+    },
+    {
+      "startTime": 83,
+      "endTime": 87,
+      "type": "climax",
+      "label": "纨绔豪横买单",
+      "description": "镇北侯二公子苏宇当众放话全场消费由自己买单，尽显嚣张跋扈",
+      "intensity": 6,
+      "keyDialogue": "今天全场消费，到由本公子买单"
+    },
+    {
+      "startTime": 217,
+      "endTime": 223,
+      "type": "climax",
+      "label": "帝叹权贵废柴",
+      "description": "皇帝得知镇北侯之子是纨绔废物，感慨其他权贵子弟也难堪大用，对招亲擂台充满忧虑",
+      "intensity": 8,
+      "keyDialogue": "朕北侯的儿子都如此废物，那其他人又能好到什么程度吗"
+    },
+    {
+      "startTime": 247,
+      "endTime": 252,
+      "type": "climax",
+      "label": "蛮人挑衅皇权",
+      "description": "蛮人当街行凶抢民女，口出狂言完全不将大言皇帝放在眼里，冲突彻底激化",
+      "intensity": 10,
+      "keyDialogue": "就连你们的皇帝老二来了，对我们都在逼公逼妾"
+    }
+  ]
+}

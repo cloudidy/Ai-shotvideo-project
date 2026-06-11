@@ -1,0 +1,152 @@
+{
+  "dramaId": "naisui",
+  "dramaName": "十八岁太奶奶驾到",
+  "episodeId": 3,
+  "episodeName": "第3集",
+  "duration": 254,
+  "videoUrl": "/video/十八岁太奶奶驾到/第3集.mp4",
+  "generatedAt": "2026-06-05 18:40:02",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep3-h1",
+      "startTime": 17,
+      "endTime": 27,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "确诊三少爷痴傻",
+      "title": "助力确诊三少爷痴傻",
+      "description": "医生诊断季家三少爷为创伤后器质性精神障碍，智力仅相当于五岁孩童，众人得知噩耗十分震惊",
+      "intensity": 8,
+      "interaction": {
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
+        "effect": "确诊三少爷痴傻特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1773,
+        "likesCount": 5844,
+        "keyDialogue": "这是创伤后气质性的精神障碍，伴随着严重的治理损伤，他现在治伤只有五岁孩子的水平",
+        "climaxType": "确诊三少爷痴傻",
+        "aiScore": 80,
+        "danmakuScore": 55.6,
+        "weightedScore": 72.7
+      }
+    },
+    {
+      "id": "ep3-h2",
+      "startTime": 50,
+      "endTime": 57,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "提出治愈方案",
+      "title": "助力提出治愈方案",
+      "description": "容小姐表示痴傻的三少爷并非重病，只需连续救治七七四十九天就能完全恢复正常，给季家众人带来希望",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "提出治愈方案特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1739,
+        "likesCount": 5088,
+        "keyDialogue": "不是什么大问题，只需要连续真究七七四十九天，即可完全恢复正常",
+        "climaxType": "提出治愈方案",
+        "aiScore": 70,
+        "danmakuScore": 49.0,
+        "weightedScore": 63.7
+      }
+    },
+    {
+      "id": "ep3-h3",
+      "startTime": 106,
+      "endTime": 124,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "当场治愈驼背",
+      "title": "助力当场治愈驼背",
+      "description": "原本断言自己驼背多年根本治不好的人，在容小姐施治后当场痊愈，众人对容小姐的医术心服口服",
+      "intensity": 8,
+      "interaction": {
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
+        "effect": "当场治愈驼背特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 2427,
+        "likesCount": 14072,
+        "keyDialogue": "我这鸵背很多年了，根本就治不好 好了",
+        "climaxType": "当场治愈驼背",
+        "aiScore": 80,
+        "danmakuScore": 81.2,
+        "weightedScore": 80.4
+      }
+    },
+    {
+      "id": "ep3-h4",
+      "startTime": 150,
+      "endTime": 180,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (3113条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 3113,
+        "likesCount": 10322,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep3-h5",
+      "startTime": 181,
+      "endTime": 205,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "傻少爷要撩妹",
+      "title": "助力傻少爷要撩妹",
+      "description": "智力退化成五岁的三少爷看到漂亮小姐姐，主动提出要带对方兜风，被众人吐槽傻了还不忘泡妞",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "傻少爷要撩妹特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 3044,
+        "likesCount": 5429,
+        "keyDialogue": "小姐姐 你真漂亮 韩韩带你去兜风 傻成这个程度，还想着泡牛的事",
+        "climaxType": "傻少爷要撩妹",
+        "aiScore": 60,
+        "danmakuScore": 62.7,
+        "weightedScore": 60.8
+      }
+    }
+  ]
+}

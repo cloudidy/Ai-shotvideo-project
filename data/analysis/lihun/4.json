@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 13,
+      "endTime": 17,
+      "type": "climax",
+      "label": "女主怕丈夫误会",
+      "description": "女子向同行男子解释自己躲着不肯露面的原因，怕被丈夫误会二人的关系",
+      "intensity": 7,
+      "keyDialogue": "那个人是我老公，我怕他误会"
+    },
+    {
+      "startTime": 31,
+      "endTime": 32,
+      "type": "climax",
+      "label": "男子调侃二人关系",
+      "description": "送女子回家的男子吐槽女子反应过激，调侃二人当下的状态十分暧昧",
+      "intensity": 6,
+      "keyDialogue": "都像是我们在投情吗"
+    },
+    {
+      "startTime": 58,
+      "endTime": 60,
+      "type": "climax",
+      "label": "男主感慨时隔多年",
+      "description": "男主发出感慨，点明他和女主已经分别了整整八年，时光太过久远",
+      "intensity": 7,
+      "keyDialogue": "八年的时间果然太久了"
+    },
+    {
+      "startTime": 90,
+      "endTime": 94,
+      "type": "climax",
+      "label": "放话要解决唐英",
+      "description": "傅总的熟人向他承诺会尽快处理掉唐英，要求傅总每天按时回家",
+      "intensity": 8,
+      "keyDialogue": "我一定会尽快解决唐英的，你每天都要回家"
+    },
+    {
+      "startTime": 109,
+      "endTime": 110,
+      "type": "closing",
+      "label": "妻子当场质问",
+      "description": "正在和旁人暧昧通话的男子突然被妻子发问，撞破秘密的悬念瞬间拉满",
+      "intensity": 9,
+      "keyDialogue": "你在跟谁打电话啊"
+    }
+  ]
+}

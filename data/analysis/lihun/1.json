@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 39,
+      "endTime": 42,
+      "type": "opening",
+      "label": "提及八年前往事",
+      "description": "主角疑惑自己近期频繁梦到八年前的过往，埋下前史伏笔",
+      "intensity": 6,
+      "keyDialogue": "最近怎么老梦到 八年前了"
+    },
+    {
+      "startTime": 76,
+      "endTime": 86,
+      "type": "climax",
+      "label": "妻子致电催离婚",
+      "description": "妻子联系声称在加班的丈夫，催促对方尽快办理离婚手续",
+      "intensity": 7,
+      "keyDialogue": "老公 你还没回家啊 在加班 你什么时候回来啊 你打算 什么时候跟这么过来玻璃昏啊 我尽快"
+    },
+    {
+      "startTime": 111,
+      "endTime": 116,
+      "type": "climax",
+      "label": "顶级金融大佬回国",
+      "description": "在场众人热议最年轻的金融操盘手回国，断言将搅动整个江城金融界",
+      "intensity": 8,
+      "keyDialogue": "恭喜最年轻的金融 操办手回国 这江城的金融界 怕是都要抖三抖了"
+    },
+    {
+      "startTime": 118,
+      "endTime": 121,
+      "type": "climax",
+      "label": "神秘人提出见面",
+      "description": "有人疑惑是谁送来的花，对方直接表示要主动去找收花人，留下悬念",
+      "intensity": 7,
+      "keyDialogue": "谁订的花 我去找你"
+    },
+    {
+      "startTime": 145,
+      "endTime": 148,
+      "type": "closing",
+      "label": "上司怒斥下属迟到",
+      "description": "管理者愤怒斥责到场的人，质问对方为何没有按要求八点抵达",
+      "intensity": 6,
+      "keyDialogue": "搞什么 都几点了 不让你八点来吗"
+    }
+  ]
+}

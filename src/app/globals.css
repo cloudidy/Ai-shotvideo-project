@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 232, 232, 236;
+  --background-start-rgb: 8, 8, 12;
+  --background-end-rgb: 8, 8, 12;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #08080c;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── 互动系统动画（保留） ── */
+
+@keyframes pulse-glow {
+  0% { box-shadow: 0 0 10px rgba(255, 100, 0, 0.5); }
+  50% { box-shadow: 0 0 30px rgba(255, 100, 0, 0.8), 0 0 60px rgba(255, 100, 0, 0.4); }
+  100% { box-shadow: 0 0 10px rgba(255, 100, 0, 0.5); }
+}
+.pulse-glow { animation: pulse-glow 1s ease-in-out infinite; }
+
+@keyframes screen-shake {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-10px, -5px); }
+  20% { transform: translate(10px, 5px); }
+  30% { transform: translate(-5px, 10px); }
+  40% { transform: translate(5px, -10px); }
+  50% { transform: translate(-10px, 5px); }
+  60% { transform: translate(10px, -5px); }
+  70% { transform: translate(-5px, -10px); }
+  80% { transform: translate(5px, 10px); }
+  90% { transform: translate(-10px, -5px); }
+}
+.screen-shake { animation: screen-shake 0.5s ease-in-out; }
+
+/* ── 简洁设计系统 ── */
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out both;
+}
+
+@keyframes subtle-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.animate-subtle-pulse { animation: subtle-pulse 2s ease-in-out infinite; }
+
+/* 玻璃态 */
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-hover:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* 渐变文字 */
+.gradient-text {
+  background: linear-gradient(135deg, #f97316, #ef4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 副文字色 */
+.text-muted {
+  color: #8b8b96;
+}
+
+/* 隐藏滚动条 */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+::selection {
+  background: rgba(249, 115, 22, 0.25);
+  color: #fff;
+}
+
+button:active {
+  transform: scale(0.97);
+  transition: transform 0.1s;
+}
+
+/* 保留的发光效果（互动系统用） */
+.glow-orange { box-shadow: 0 0 20px rgba(249, 115, 22, 0.5), 0 0 40px rgba(249, 115, 22, 0.3); }
+.glow-red { box-shadow: 0 0 20px rgba(239, 68, 68, 0.5), 0 0 40px rgba(239, 68, 68, 0.3); }
+.glow-green { box-shadow: 0 0 20px rgba(34, 197, 94, 0.5), 0 0 40px rgba(34, 197, 94, 0.3); }
+.glow-blue { box-shadow: 0 0 20px rgba(59, 130, 246, 0.5), 0 0 40px rgba(59, 130, 246, 0.3); }
+.glow-purple { box-shadow: 0 0 20px rgba(168, 85, 247, 0.5), 0 0 40px rgba(168, 85, 247, 0.3); }
+.glow-pink { box-shadow: 0 0 20px rgba(236, 72, 153, 0.5), 0 0 40px rgba(236, 72, 153, 0.3); }
+.glow-yellow { box-shadow: 0 0 20px rgba(234, 179, 8, 0.5), 0 0 40px rgba(234, 179, 8, 0.3); }
+.glow-cyan { box-shadow: 0 0 20px rgba(6, 182, 212, 0.5), 0 0 40px rgba(6, 182, 212, 0.3); }

@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 0,
+      "endTime": 41,
+      "type": "opening",
+      "label": "季家少爷登场",
+      "description": "路人围观议论身份各异的季家少爷们集体现身，引发周围人惊叹",
+      "intensity": 6,
+      "keyDialogue": "快看 季家少爷们来了"
+    },
+    {
+      "startTime": 73,
+      "endTime": 78,
+      "type": "climax",
+      "label": "女主霸气放话",
+      "description": "被路人嘲讽永远不可能加入季家豪门的女主当众说出惊人宣言，旁人纷纷表示难以置信",
+      "intensity": 8,
+      "keyDialogue": "我不需要进季家，因为我在哪，季家就在哪"
+    },
+    {
+      "startTime": 117,
+      "endTime": 142,
+      "type": "climax",
+      "label": "身份惊天反转",
+      "description": "女主自曝穿越身份，揭露自己是季家少爷们的长辈，直接推翻此前所有人的认知，是全片最大反转",
+      "intensity": 10,
+      "keyDialogue": "我叫荣誉，是从1955年穿越而来，当年我因意外去世，穿越到了七十年后同名同姓的十八岁少女身上，重新遇见了我的儿子和重孙子"
+    },
+    {
+      "startTime": 151,
+      "endTime": 158,
+      "type": "climax",
+      "label": "现身缘由揭晓",
+      "description": "众人得知季家一众少爷集体出动的原因是陪同奶奶送八十岁的爷爷上老年大学，反差感十足",
+      "intensity": 7,
+      "keyDialogue": "看奶奶，今天是爷爷上老年大学的第一天，我们几个一起陪你来送他，帮忙"
+    },
+    {
+      "startTime": 223,
+      "endTime": 243,
+      "type": "closing",
+      "label": "三少爷惊喜归来",
+      "description": "多年未归家的季家三少爷突然现身，众人当即决定请假不上学去迎接他，剧情温馨收尾",
+      "intensity": 6,
+      "keyDialogue": "老三三年没回来了，我真的很想他"
+    }
+  ]
+}

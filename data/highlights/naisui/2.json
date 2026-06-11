@@ -1,0 +1,152 @@
+{
+  "dramaId": "naisui",
+  "dramaName": "十八岁太奶奶驾到",
+  "episodeId": 2,
+  "episodeName": "第2集",
+  "duration": 275,
+  "videoUrl": "/video/十八岁太奶奶驾到/第2集.mp4",
+  "generatedAt": "2026-06-05 18:40:02",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep2-h1",
+      "startTime": 20,
+      "endTime": 32,
+      "type": "opening",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "介绍老三履历",
+      "title": "助力介绍老三履历",
+      "description": "晚辈向家中长辈介绍老三的身份，称其是和长辈一样搞科研的全球顶级科研人员，常年在世界各地研究前沿科学",
+      "intensity": 3,
+      "interaction": {
+        "requiredClicks": 10,
+        "duration": 8,
+        "reward": 150,
+        "effect": "介绍老三履历特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 3278,
+        "likesCount": 7608,
+        "keyDialogue": "咱们家老三 跟您一样也是搞科研的 他可是全世界最顶级的科学生 前些年 一直在世界各地 研究最前沿的科学",
+        "climaxType": "介绍老三履历",
+        "aiScore": 30,
+        "danmakuScore": 27.4,
+        "weightedScore": 29.2
+      }
+    },
+    {
+      "id": "ep2-h2",
+      "startTime": 44,
+      "endTime": 54,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "认知反转揭秘",
+      "title": "助力认知反转揭秘",
+      "description": "晚辈纠正奶奶的误解，告知众人期待老三归来并非因为他的科研身份，而是因为他是有名的季家小王子",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "认知反转揭秘特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1081,
+        "likesCount": 2908,
+        "keyDialogue": "看奶奶 您误会了 大家期待三弟 并不是因为科研 而是因为 他被称为 季家的小王子",
+        "climaxType": "认知反转揭秘",
+        "aiScore": 60,
+        "danmakuScore": 16.3,
+        "weightedScore": 46.9
+      }
+    },
+    {
+      "id": "ep2-h3",
+      "startTime": 90,
+      "endTime": 120,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (9109条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 9109,
+        "likesCount": 16464,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep2-h4",
+      "startTime": 119,
+      "endTime": 141,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "兄弟趣味互怼",
+      "title": "助力兄弟趣味互怼",
+      "description": "家中其他兄弟羡慕老三能当花花公子，吐槽自己没这个机会，被调侃当花花公子有颜值门槛",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "兄弟趣味互怼特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 10960,
+        "likesCount": 21731,
+        "keyDialogue": "为什么我不能做他这样的拜贼 梭花花公子 需要一些颜值要求的",
+        "climaxType": "兄弟趣味互怼",
+        "aiScore": 70,
+        "danmakuScore": 100.0,
+        "weightedScore": 79.0
+      }
+    },
+    {
+      "id": "ep2-h5",
+      "startTime": 170,
+      "endTime": 171,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "老三露面震惊",
+      "title": "助力老三露面震惊",
+      "description": "多年未归的老三刚出现在家人面前，就被家人惊讶询问是不是整容了",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "老三露面震惊特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1495,
+        "likesCount": 5084,
+        "keyDialogue": "你整容了",
+        "climaxType": "老三露面震惊",
+        "aiScore": 90,
+        "danmakuScore": 28.0,
+        "weightedScore": 71.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 20,
+      "endTime": 32,
+      "type": "opening",
+      "label": "介绍老三履历",
+      "description": "晚辈向家中长辈介绍老三的身份，称其是和长辈一样搞科研的全球顶级科研人员，常年在世界各地研究前沿科学",
+      "intensity": 3,
+      "keyDialogue": "咱们家老三 跟您一样也是搞科研的 他可是全世界最顶级的科学生 前些年 一直在世界各地 研究最前沿的科学"
+    },
+    {
+      "startTime": 44,
+      "endTime": 54,
+      "type": "climax",
+      "label": "认知反转揭秘",
+      "description": "晚辈纠正奶奶的误解，告知众人期待老三归来并非因为他的科研身份，而是因为他是有名的季家小王子",
+      "intensity": 6,
+      "keyDialogue": "看奶奶 您误会了 大家期待三弟 并不是因为科研 而是因为 他被称为 季家的小王子"
+    },
+    {
+      "startTime": 119,
+      "endTime": 141,
+      "type": "climax",
+      "label": "兄弟趣味互怼",
+      "description": "家中其他兄弟羡慕老三能当花花公子，吐槽自己没这个机会，被调侃当花花公子有颜值门槛",
+      "intensity": 7,
+      "keyDialogue": "为什么我不能做他这样的拜贼 梭花花公子 需要一些颜值要求的"
+    },
+    {
+      "startTime": 170,
+      "endTime": 171,
+      "type": "climax",
+      "label": "老三露面震惊",
+      "description": "多年未归的老三刚出现在家人面前，就被家人惊讶询问是不是整容了",
+      "intensity": 9,
+      "keyDialogue": "你整容了"
+    },
+    {
+      "startTime": 257,
+      "endTime": 262,
+      "type": "closing",
+      "label": "猜测老三遭遇",
+      "description": "家人们议论推测，老三是在外惹了麻烦，才会被打破头狼狈归家",
+      "intensity": 8,
+      "keyDialogue": "爷爷 这三哥真是在外面惹了秦寨 被打破了头中 是好策啊这俩"
+    }
+  ]
+}

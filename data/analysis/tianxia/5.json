@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 35,
+      "endTime": 38,
+      "type": "opening",
+      "label": "设局试探目标",
+      "description": "布局者笃定自己的安排足够明显，自信目标一定会察觉到异常",
+      "intensity": 6,
+      "keyDialogue": "我就不信 这样你还发现不了"
+    },
+    {
+      "startTime": 41,
+      "endTime": 48,
+      "type": "climax",
+      "label": "嘲讽主角废物",
+      "description": "上位者一边享受按摩服务，一边出言贬低嘲讽对方是没用的废物",
+      "intensity": 5,
+      "keyDialogue": "对对对 就是这个力度 小翠 你最近这按摩手艺见长啊 果然是个奇评废物"
+    },
+    {
+      "startTime": 60,
+      "endTime": 65,
+      "type": "climax",
+      "label": "以命相护玉佩",
+      "description": "主角态度极其强硬，明确表示哪怕对方要自己的命也绝不肯交出玉佩",
+      "intensity": 9,
+      "keyDialogue": "你要我的命 我都可以给你 唯独这玉佩不行"
+    },
+    {
+      "startTime": 82,
+      "endTime": 88,
+      "type": "climax",
+      "label": "反派扣下玉佩",
+      "description": "反派得知玉佩是主角生母遗留的重要遗物，故意将玉佩扣下当作对主角的奖励",
+      "intensity": 8,
+      "keyDialogue": "居然你把她看得比命还重要 那我就限定你收着 也当是给你一个奖励"
+    },
+    {
+      "startTime": 101,
+      "endTime": 106,
+      "type": "closing",
+      "label": "逼主角二选一",
+      "description": "反派拦住主角去路，抛出极端二选一的难题，逼迫主角立刻做出抉择",
+      "intensity": 10,
+      "keyDialogue": "要么留下她 要么留下你"
+    }
+  ]
+}

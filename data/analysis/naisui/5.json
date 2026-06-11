@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 39,
+      "endTime": 54,
+      "type": "climax",
+      "label": "安排张女留府",
+      "description": "主事人以女子行动危险为由，提出让张小姐留在纪家休养，承诺不会亏待她",
+      "intensity": 6,
+      "keyDialogue": "事情虽然还没调查清楚 但他怀着运营 跑来跑去确实有些危险 不如让张小姐先留在计价 如果你说的是真的 计价不会亏待你"
+    },
+    {
+      "startTime": 60,
+      "endTime": 67,
+      "type": "climax",
+      "label": "许少夫人待遇",
+      "description": "主事人拿出不限额的卡，宣布将以纪家少夫人的规格招待张小姐，周围下人十分诧异",
+      "intensity": 7,
+      "keyDialogue": "这张卡 你随便说 计价会以计价少夫人的规格 好好招待你"
+    },
+    {
+      "startTime": 96,
+      "endTime": 100,
+      "type": "climax",
+      "label": "孩童拒指定婚事",
+      "description": "谭斑当众拒绝长辈安排的婚配对象，明确表示要娶荣誉姐姐",
+      "intensity": 8,
+      "keyDialogue": "我不要刚刚那个人做我老婆 我要荣誉姐姐做我老婆"
+    },
+    {
+      "startTime": 120,
+      "endTime": 123,
+      "type": "climax",
+      "label": "揭露女子身份",
+      "description": "大哥被孩童的胡搅蛮缠激怒，当众爆出荣誉是自己的亲生母亲，是核心身份反转点",
+      "intensity": 10,
+      "keyDialogue": "你这混蛋东西 她是我妈妈"
+    },
+    {
+      "startTime": 126,
+      "endTime": 129,
+      "type": "climax",
+      "label": "推导荒诞辈分",
+      "description": "孩童顺着之前的对话逻辑，得出自己是大哥爸爸的离谱结论，将喜剧冲突推到最高点",
+      "intensity": 9,
+      "keyDialogue": "那她是我老婆 那我就是你爸爸了"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "dramaId": "lihun",
+  "dramaName": "幸得相遇离婚时",
+  "episodeId": 2,
+  "episodeName": "第2集",
+  "duration": 141,
+  "videoUrl": "/video/幸得相遇离婚时/第2集.mp4",
+  "generatedAt": "2026-06-05 18:40:16",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep2-h1",
+      "startTime": 27,
+      "endTime": 30,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "放话免单不揍人",
+      "title": "助力放话免单不揍人",
+      "description": "在场嚣张人员放话不用给消费的钱，没动手打人已经是给对方面子",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "放话免单不揍人特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 134,
+        "likesCount": 116,
+        "keyDialogue": "给什么钱给钱 没揍的就算给他面子",
+        "climaxType": "放话免单不揍人",
+        "aiScore": 70,
+        "danmakuScore": 27.5,
+        "weightedScore": 57.2
+      }
+    },
+    {
+      "id": "ep2-h2",
+      "startTime": 48,
+      "endTime": 56,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "下令搅动商界",
+      "title": "助力下令搅动商界",
+      "description": "四哥向下属下达指令，要求立刻出手整顿改变江城现有商界格局",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "下令搅动商界特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 115,
+        "likesCount": 100,
+        "keyDialogue": "江城的商场 你还不赶紧去 我说你还不赶紧去 江城的商界 再换换解了",
+        "climaxType": "下令搅动商界",
+        "aiScore": 90,
+        "danmakuScore": 27.6,
+        "weightedScore": 71.3
+      }
+    },
+    {
+      "id": "ep2-h3",
+      "startTime": 90,
+      "endTime": 120,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (349条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 349,
+        "likesCount": 572,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep2-h4",
+      "startTime": 123,
+      "endTime": 127,
+      "type": "closing",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "埋下熟悉伏笔",
+      "title": "助力埋下熟悉伏笔",
+      "description": "男主看着眼前的陌生人，内心疑惑自己为什么会对对方有莫名的熟悉感，留下后续剧情悬念",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "埋下熟悉伏笔特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 268,
+        "likesCount": 65,
+        "keyDialogue": "为什么我对这个陌生人 有种熟悉的感觉",
+        "climaxType": "埋下熟悉伏笔",
+        "aiScore": 60,
+        "danmakuScore": 35.3,
+        "weightedScore": 52.6
+      }
+    }
+  ]
+}

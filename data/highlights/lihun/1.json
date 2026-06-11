@@ -1,0 +1,152 @@
+{
+  "dramaId": "lihun",
+  "dramaName": "幸得相遇离婚时",
+  "episodeId": 1,
+  "episodeName": "第1集",
+  "duration": 150,
+  "videoUrl": "/video/幸得相遇离婚时/第1集.mp4",
+  "generatedAt": "2026-06-05 18:40:16",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep1-h1",
+      "startTime": 0,
+      "endTime": 30,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (564条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 564,
+        "likesCount": 290,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep1-h2",
+      "startTime": 39,
+      "endTime": 42,
+      "type": "opening",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "提及八年前往事",
+      "title": "助力提及八年前往事",
+      "description": "主角疑惑自己近期频繁梦到八年前的过往，埋下前史伏笔",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "提及八年前往事特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 401,
+        "likesCount": 89,
+        "keyDialogue": "最近怎么老梦到 八年前了",
+        "climaxType": "提及八年前往事",
+        "aiScore": 60,
+        "danmakuScore": 58.0,
+        "weightedScore": 59.4
+      }
+    },
+    {
+      "id": "ep1-h3",
+      "startTime": 76,
+      "endTime": 86,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "妻子致电催离婚",
+      "title": "助力妻子致电催离婚",
+      "description": "妻子联系声称在加班的丈夫，催促对方尽快办理离婚手续",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "妻子致电催离婚特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 298,
+        "likesCount": 53,
+        "keyDialogue": "老公 你还没回家啊 在加班 你什么时候回来啊 你打算 什么时候跟这么过来玻璃昏啊 我尽快",
+        "climaxType": "妻子致电催离婚",
+        "aiScore": 70,
+        "danmakuScore": 42.9,
+        "weightedScore": 61.9
+      }
+    },
+    {
+      "id": "ep1-h4",
+      "startTime": 118,
+      "endTime": 121,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "神秘人提出见面",
+      "title": "助力神秘人提出见面",
+      "description": "有人疑惑是谁送来的花，对方直接表示要主动去找收花人，留下悬念",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "神秘人提出见面特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 624,
+        "likesCount": 460,
+        "keyDialogue": "谁订的花 我去找你",
+        "climaxType": "神秘人提出见面",
+        "aiScore": 70,
+        "danmakuScore": 93.8,
+        "weightedScore": 77.1
+      }
+    },
+    {
+      "id": "ep1-h5",
+      "startTime": 145,
+      "endTime": 148,
+      "type": "closing",
+      "interactionType": "emperor-rage",
+      "emoji": "👑",
+      "label": "上司怒斥下属迟到",
+      "title": "助力上司怒斥下属迟到",
+      "description": "管理者愤怒斥责到场的人，质问对方为何没有按要求八点抵达",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "上司怒斥下属迟到特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 465,
+        "likesCount": 320,
+        "keyDialogue": "搞什么 都几点了 不让你八点来吗",
+        "climaxType": "上司怒斥下属迟到",
+        "aiScore": 60,
+        "danmakuScore": 93.8,
+        "weightedScore": 70.1
+      }
+    }
+  ]
+}

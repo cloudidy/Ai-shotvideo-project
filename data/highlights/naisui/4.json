@@ -1,0 +1,152 @@
+{
+  "dramaId": "naisui",
+  "dramaName": "十八岁太奶奶驾到",
+  "episodeId": 4,
+  "episodeName": "第4集",
+  "duration": 174,
+  "videoUrl": "/video/十八岁太奶奶驾到/第4集.mp4",
+  "generatedAt": "2026-06-05 18:40:02",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep4-h1",
+      "startTime": 0,
+      "endTime": 11,
+      "type": "opening",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "抛出核心冲突",
+      "title": "助力抛出核心冲突",
+      "description": "女子自述和男友慕恒回来见家长，中途失联后重逢发现对方变成傻子",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "抛出核心冲突特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1367,
+        "likesCount": 11706,
+        "keyDialogue": "我本来是跟慕恒回来见家长的，但是路上就找不着他了，怎么找都找不着，结果好不容易见到，他怎么变傻子了",
+        "climaxType": "抛出核心冲突",
+        "aiScore": 60,
+        "danmakuScore": 100.0,
+        "weightedScore": 72.0
+      }
+    },
+    {
+      "id": "ep4-h2",
+      "startTime": 21,
+      "endTime": 35,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "表态不离不弃",
+      "title": "助力表态不离不弃",
+      "description": "女子当众向慕恒的家人承诺，哪怕慕恒已经变傻自己也会始终深爱他",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "表态不离不弃特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 3380,
+        "likesCount": 17412,
+        "keyDialogue": "虽然他变傻了，但我还是会爱他，我会爱他",
+        "climaxType": "表态不离不弃",
+        "aiScore": 70,
+        "danmakuScore": 100.0,
+        "weightedScore": 79.0
+      }
+    },
+    {
+      "id": "ep4-h3",
+      "startTime": 92,
+      "endTime": 99,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "当场戳穿谎言",
+      "title": "助力当场戳穿谎言",
+      "description": "精通微表情的龙小姐指出女子说话时眨眼频率翻倍，直接判定她在说谎",
+      "intensity": 8,
+      "interaction": {
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
+        "effect": "当场戳穿谎言特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 931,
+        "likesCount": 2587,
+        "keyDialogue": "你刚刚说话的时候，眨眼频率比开始快一倍，你在说谎",
+        "climaxType": "当场戳穿谎言",
+        "aiScore": 80,
+        "danmakuScore": 26.1,
+        "weightedScore": 63.8
+      }
+    },
+    {
+      "id": "ep4-h4",
+      "startTime": 146,
+      "endTime": 154,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "女子坦白说谎",
+      "title": "助力女子坦白说谎",
+      "description": "在龙小姐的气场施压下，女子承认之前部分表述是谎言，但坚称腹中孩子是慕恒的",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "女子坦白说谎特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1226,
+        "likesCount": 7204,
+        "keyDialogue": "我是说谎，他没想把我带回来进家长，但我肚子里的孩子，确实是他的",
+        "climaxType": "女子坦白说谎",
+        "aiScore": 90,
+        "danmakuScore": 51.2,
+        "weightedScore": 78.4
+      }
+    },
+    {
+      "id": "ep4-h5",
+      "startTime": 167,
+      "endTime": 172,
+      "type": "closing",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "引出后续对质",
+      "title": "助力引出后续对质",
+      "description": "慕恒的家人下令叫来三弟的随行司机，准备核实事件全部真相",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "引出后续对质特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 401,
+        "likesCount": 1437,
+        "keyDialogue": "你去把三弟的死机叫过来，咱们一去哪儿都会带着他",
+        "climaxType": "引出后续对质",
+        "aiScore": 70,
+        "danmakuScore": 14.0,
+        "weightedScore": 53.2
+      }
+    }
+  ]
+}

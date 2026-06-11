@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 0,
+      "endTime": 11,
+      "type": "opening",
+      "label": "抛出核心冲突",
+      "description": "女子自述和男友慕恒回来见家长，中途失联后重逢发现对方变成傻子",
+      "intensity": 6,
+      "keyDialogue": "我本来是跟慕恒回来见家长的，但是路上就找不着他了，怎么找都找不着，结果好不容易见到，他怎么变傻子了"
+    },
+    {
+      "startTime": 21,
+      "endTime": 35,
+      "type": "climax",
+      "label": "表态不离不弃",
+      "description": "女子当众向慕恒的家人承诺，哪怕慕恒已经变傻自己也会始终深爱他",
+      "intensity": 7,
+      "keyDialogue": "虽然他变傻了，但我还是会爱他，我会爱他"
+    },
+    {
+      "startTime": 92,
+      "endTime": 99,
+      "type": "climax",
+      "label": "当场戳穿谎言",
+      "description": "精通微表情的龙小姐指出女子说话时眨眼频率翻倍，直接判定她在说谎",
+      "intensity": 8,
+      "keyDialogue": "你刚刚说话的时候，眨眼频率比开始快一倍，你在说谎"
+    },
+    {
+      "startTime": 146,
+      "endTime": 154,
+      "type": "climax",
+      "label": "女子坦白说谎",
+      "description": "在龙小姐的气场施压下，女子承认之前部分表述是谎言，但坚称腹中孩子是慕恒的",
+      "intensity": 9,
+      "keyDialogue": "我是说谎，他没想把我带回来进家长，但我肚子里的孩子，确实是他的"
+    },
+    {
+      "startTime": 167,
+      "endTime": 172,
+      "type": "closing",
+      "label": "引出后续对质",
+      "description": "慕恒的家人下令叫来三弟的随行司机，准备核实事件全部真相",
+      "intensity": 7,
+      "keyDialogue": "你去把三弟的死机叫过来，咱们一去哪儿都会带着他"
+    }
+  ]
+}

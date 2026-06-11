@@ -1,0 +1,152 @@
+{
+  "dramaId": "tianxia",
+  "dramaName": "天下第一纨绔",
+  "episodeId": 3,
+  "episodeName": "第3集",
+  "duration": 183,
+  "videoUrl": "/video/天下第一纨绔/第3集.mp4",
+  "generatedAt": "2026-06-05 18:06:44",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep3-h1",
+      "startTime": 5,
+      "endTime": 12,
+      "type": "opening",
+      "interactionType": "emperor-rage",
+      "emoji": "👑",
+      "label": "侯爷怒斥孽子",
+      "title": "助力侯爷怒斥孽子",
+      "description": "振北侯得知二儿子又欠下十万两赌债，当众暴怒痛骂儿子是文不成武不就的废物",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "侯爷怒斥孽子特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 180,
+        "likesCount": 153,
+        "keyDialogue": "我怎么就生出他这么个孽障东西，文不诚武不救，整日就知道流烈与烟花之地",
+        "climaxType": "侯爷怒斥孽子",
+        "aiScore": 70,
+        "danmakuScore": 25.1,
+        "weightedScore": 56.5
+      }
+    },
+    {
+      "id": "ep3-h2",
+      "startTime": 30,
+      "endTime": 60,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (658条弹幕)",
+      "intensity": 8.0,
+      "interaction": {
+        "requiredClicks": 19.0,
+        "duration": 10.0,
+        "reward": 400.0,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 658,
+        "likesCount": 517,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 84.8,
+        "weightedScore": 25.439999999999998
+      }
+    },
+    {
+      "id": "ep3-h3",
+      "startTime": 60,
+      "endTime": 90,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (816条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 816,
+        "likesCount": 610,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep3-h4",
+      "startTime": 105,
+      "endTime": 109,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "男主戳穿伪装",
+      "title": "助力男主戳穿伪装",
+      "description": "所有人离场后，一直伪装成纨绔的二儿子直接点破后娘丽真演了十五年戏的事实",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "男主戳穿伪装特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 498,
+        "likesCount": 299,
+        "keyDialogue": "丽真，演了十五年的词，也真是难为你了",
+        "climaxType": "男主戳穿伪装",
+        "aiScore": 90,
+        "danmakuScore": 55.3,
+        "weightedScore": 79.6
+      }
+    },
+    {
+      "id": "ep3-h5",
+      "startTime": 136,
+      "endTime": 140,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "揭露弑母真相",
+      "title": "助力揭露弑母真相",
+      "description": "男主意外偷听到后娘和大哥的对话，得知自己的亲生母亲是被后娘下药害死的",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "揭露弑母真相特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 175,
+        "likesCount": 152,
+        "keyDialogue": "苏语她娘，不就是你下药",
+        "climaxType": "揭露弑母真相",
+        "aiScore": 100,
+        "danmakuScore": 23.5,
+        "weightedScore": 77.0
+      }
+    }
+  ]
+}

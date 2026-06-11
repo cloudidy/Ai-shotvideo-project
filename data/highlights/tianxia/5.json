@@ -1,0 +1,124 @@
+{
+  "dramaId": "tianxia",
+  "dramaName": "天下第一纨绔",
+  "episodeId": 5,
+  "episodeName": "第5集",
+  "duration": 108,
+  "videoUrl": "/video/天下第一纨绔/第5集.mp4",
+  "generatedAt": "2026-06-05 18:07:48",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep5-h1",
+      "startTime": 0,
+      "endTime": 30,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "主角高光",
+      "title": "助力主角高光",
+      "description": "弹幕密度最高的时刻 (183条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "主角高光特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 183,
+        "likesCount": 168,
+        "keyDialogue": "",
+        "climaxType": "主角高光",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep5-h2",
+      "startTime": 35,
+      "endTime": 38,
+      "type": "opening",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "设局试探目标",
+      "title": "助力设局试探目标",
+      "description": "布局者笃定自己的安排足够明显，自信目标一定会察觉到异常",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "设局试探目标特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 160,
+        "likesCount": 64,
+        "keyDialogue": "我就不信 这样你还发现不了",
+        "climaxType": "设局试探目标",
+        "aiScore": 60,
+        "danmakuScore": 62.3,
+        "weightedScore": 60.7
+      }
+    },
+    {
+      "id": "ep5-h3",
+      "startTime": 60,
+      "endTime": 65,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "以命相护玉佩",
+      "title": "助力以命相护玉佩",
+      "description": "主角态度极其强硬，明确表示哪怕对方要自己的命也绝不肯交出玉佩",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "以命相护玉佩特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 99,
+        "likesCount": 210,
+        "keyDialogue": "你要我的命 我都可以给你 唯独这玉佩不行",
+        "climaxType": "以命相护玉佩",
+        "aiScore": 90,
+        "danmakuScore": 93.9,
+        "weightedScore": 91.2
+      }
+    },
+    {
+      "id": "ep5-h4",
+      "startTime": 101,
+      "endTime": 106,
+      "type": "closing",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "逼主角二选一",
+      "title": "助力逼主角二选一",
+      "description": "反派拦住主角去路，抛出极端二选一的难题，逼迫主角立刻做出抉择",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "逼主角二选一特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 96,
+        "likesCount": 86,
+        "keyDialogue": "要么留下她 要么留下你",
+        "climaxType": "逼主角二选一",
+        "aiScore": 100,
+        "danmakuScore": 62.6,
+        "weightedScore": 88.8
+      }
+    }
+  ]
+}

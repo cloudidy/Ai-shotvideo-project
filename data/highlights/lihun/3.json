@@ -1,0 +1,152 @@
+{
+  "dramaId": "lihun",
+  "dramaName": "幸得相遇离婚时",
+  "episodeId": 3,
+  "episodeName": "第3集",
+  "duration": 174,
+  "videoUrl": "/video/幸得相遇离婚时/第3集.mp4",
+  "generatedAt": "2026-06-05 18:40:16",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep3-h1",
+      "startTime": 0,
+      "endTime": 30,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (492条弹幕)",
+      "intensity": 9.0,
+      "interaction": {
+        "requiredClicks": 21.0,
+        "duration": 11.0,
+        "reward": 450.0,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 492,
+        "likesCount": 235,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 99.4,
+        "weightedScore": 29.82
+      }
+    },
+    {
+      "id": "ep3-h2",
+      "startTime": 28,
+      "endTime": 34,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "丈夫负担医药费",
+      "title": "助力丈夫负担医药费",
+      "description": "女主讲述自己父亲生病期间，一直都是丈夫在承担相关医药费",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "丈夫负担医药费特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 838,
+        "likesCount": 453,
+        "keyDialogue": "我爸生病 一直是他在负担医药费",
+        "climaxType": "丈夫负担医药费",
+        "aiScore": 70,
+        "danmakuScore": 99.4,
+        "weightedScore": 78.8
+      }
+    },
+    {
+      "id": "ep3-h3",
+      "startTime": 59,
+      "endTime": 60,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "被追问丈夫态度",
+      "title": "助力被追问丈夫态度",
+      "description": "旁人直接向女主发问，确认她的丈夫对她好不好",
+      "intensity": 8,
+      "interaction": {
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
+        "effect": "被追问丈夫态度特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 346,
+        "likesCount": 218,
+        "keyDialogue": "他对你好吗",
+        "climaxType": "被追问丈夫态度",
+        "aiScore": 80,
+        "danmakuScore": 78.9,
+        "weightedScore": 79.7
+      }
+    },
+    {
+      "id": "ep3-h4",
+      "startTime": 90,
+      "endTime": 120,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (352条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 352,
+        "likesCount": 364,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep3-h5",
+      "startTime": 160,
+      "endTime": 161,
+      "type": "closing",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "拒绝下车留悬念",
+      "title": "助力拒绝下车留悬念",
+      "description": "角色明确拒绝下车的要求，留下强烈的后续剧情悬念",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "拒绝下车留悬念特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 39,
+        "likesCount": 54,
+        "keyDialogue": "不下车",
+        "climaxType": "拒绝下车留悬念",
+        "aiScore": 90,
+        "danmakuScore": 13.5,
+        "weightedScore": 67.0
+      }
+    }
+  ]
+}

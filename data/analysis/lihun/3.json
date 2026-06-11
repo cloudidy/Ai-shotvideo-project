@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 28,
+      "endTime": 34,
+      "type": "climax",
+      "label": "丈夫负担医药费",
+      "description": "女主讲述自己父亲生病期间，一直都是丈夫在承担相关医药费",
+      "intensity": 7,
+      "keyDialogue": "我爸生病 一直是他在负担医药费"
+    },
+    {
+      "startTime": 38,
+      "endTime": 48,
+      "type": "climax",
+      "label": "认可丈夫是好丈夫",
+      "description": "女主提及丈夫逢年过节都会准备惊喜，坦言对方算得上是好丈夫",
+      "intensity": 6,
+      "keyDialogue": "也会给我准备惊喜 谢谢您 他应该算是一个好丈夫"
+    },
+    {
+      "startTime": 59,
+      "endTime": 60,
+      "type": "climax",
+      "label": "被追问丈夫态度",
+      "description": "旁人直接向女主发问，确认她的丈夫对她好不好",
+      "intensity": 8,
+      "keyDialogue": "他对你好吗"
+    },
+    {
+      "startTime": 71,
+      "endTime": 75,
+      "type": "climax",
+      "label": "丈夫嘘寒问暖",
+      "description": "丈夫见到妻子后主动关心对方上班是否辛苦，让妻子别再上班",
+      "intensity": 7,
+      "keyDialogue": "老婆 上班辛苦吗 给我别上班了"
+    },
+    {
+      "startTime": 160,
+      "endTime": 161,
+      "type": "closing",
+      "label": "拒绝下车留悬念",
+      "description": "角色明确拒绝下车的要求，留下强烈的后续剧情悬念",
+      "intensity": 9,
+      "keyDialogue": "不下车"
+    }
+  ]
+}

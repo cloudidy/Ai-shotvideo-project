@@ -1,0 +1,79 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# 构建
+.next/
+out/
+build/
+
+# 环境变量（含密钥，不上传）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 调试
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# ====== 大文件排除 ======
+
+# 视频：排除全部，再用 ! 保留每部剧前2集作为 demo
+video/**/*.mp4
+!video/天下第一纨绔/第1集.mp4
+!video/天下第一纨绔/第2集.mp4
+!video/北派寻宝日记/第63集.mp4
+!video/北派寻宝日记/第64集.mp4
+!video/十八岁太奶奶驾到/第1集.mp4
+!video/十八岁太奶奶驾到/第2集.mp4
+!video/幸得相遇离婚时/第1集.mp4
+!video/幸得相遇离婚时/第2集.mp4
+video/*.csv
+
+# FFmpeg工具（太大，换电脑自行下载）
+ffmpeg.exe
+ffmpeg/
+ffmpeg.zip
+
+# 音频文件
+*.wav
+*.mp3
+*.aac
+
+# 提取的帧图片
+frames/
+
+# PDF文档
+*.pdf
+
+# 字幕JSON文件（太大，只保留SRT和TXT）
+subtitles/**/*.json
+
+# Claude Code 本地配置
+.claude/
+
+# 含 API Key 的原始脚本（上传模板版本 scripts/templates/）
+scripts/audio_to_subtitle_doubao.py
+scripts/generate_highlights.py
+scripts/analyze_climax.sh
+scripts/audio_to_srt.sh
+scripts/audio_to_srt_final.sh
+scripts/episode_analysis.sh
+
+# 临时文件
+test_30s.*
+tsconfig.tsbuildinfo

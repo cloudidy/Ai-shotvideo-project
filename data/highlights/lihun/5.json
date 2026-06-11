@@ -1,0 +1,96 @@
+{
+  "dramaId": "lihun",
+  "dramaName": "幸得相遇离婚时",
+  "episodeId": 5,
+  "episodeName": "第5集",
+  "duration": 104,
+  "videoUrl": "/video/幸得相遇离婚时/第5集.mp4",
+  "generatedAt": "2026-06-05 18:40:16",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep5-h1",
+      "startTime": 0,
+      "endTime": 2,
+      "type": "opening",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "开场盘问通话",
+      "title": "助力开场盘问通话",
+      "description": "一方发现对方正在打电话，开口质问对方通话对象是谁，对方回应是客户",
+      "intensity": 3,
+      "interaction": {
+        "requiredClicks": 10,
+        "duration": 8,
+        "reward": 150,
+        "effect": "开场盘问通话特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 190,
+        "likesCount": 560,
+        "keyDialogue": "你在跟谁打电话 客户",
+        "climaxType": "开场盘问通话",
+        "aiScore": 30,
+        "danmakuScore": 100.0,
+        "weightedScore": 51.0
+      }
+    },
+    {
+      "id": "ep5-h2",
+      "startTime": 60,
+      "endTime": 62,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "立下出头誓言",
+      "title": "助力立下出头誓言",
+      "description": "主角情绪激昂当众喊出自己必定要出人头地的宣言，属于强烈的情感爆发点",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "立下出头誓言特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 247,
+        "likesCount": 363,
+        "keyDialogue": "老子一定会出人头地",
+        "climaxType": "立下出头誓言",
+        "aiScore": 90,
+        "danmakuScore": 80.8,
+        "weightedScore": 87.2
+      }
+    },
+    {
+      "id": "ep5-h3",
+      "startTime": 84,
+      "endTime": 86,
+      "type": "closing",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "结尾留设悬念",
+      "title": "助力结尾留设悬念",
+      "description": "有人紧接着追问婚事今天能不能敲定，后续走向不明留下钩子",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "结尾留设悬念特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 247,
+        "likesCount": 363,
+        "keyDialogue": "今天能提上吗",
+        "climaxType": "结尾留设悬念",
+        "aiScore": 60,
+        "danmakuScore": 80.8,
+        "weightedScore": 66.2
+      }
+    }
+  ]
+}

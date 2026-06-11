@@ -1,0 +1,152 @@
+{
+  "dramaId": "naisui",
+  "dramaName": "十八岁太奶奶驾到",
+  "episodeId": 5,
+  "episodeName": "第5集",
+  "duration": 133,
+  "videoUrl": "/video/十八岁太奶奶驾到/第5集.mp4",
+  "generatedAt": "2026-06-05 18:40:03",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep5-h1",
+      "startTime": 0,
+      "endTime": 30,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (1759条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1759,
+        "likesCount": 8730,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    },
+    {
+      "id": "ep5-h2",
+      "startTime": 39,
+      "endTime": 54,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "安排张女留府",
+      "title": "助力安排张女留府",
+      "description": "主事人以女子行动危险为由，提出让张小姐留在纪家休养，承诺不会亏待她",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "安排张女留府特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1139,
+        "likesCount": 4171,
+        "keyDialogue": "事情虽然还没调查清楚 但他怀着运营 跑来跑去确实有些危险 不如让张小姐先留在计价 如果你说的是真的 计价不会亏待你",
+        "climaxType": "安排张女留府",
+        "aiScore": 60,
+        "danmakuScore": 50.2,
+        "weightedScore": 57.1
+      }
+    },
+    {
+      "id": "ep5-h3",
+      "startTime": 60,
+      "endTime": 67,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "许少夫人待遇",
+      "title": "助力许少夫人待遇",
+      "description": "主事人拿出不限额的卡，宣布将以纪家少夫人的规格招待张小姐，周围下人十分诧异",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "许少夫人待遇特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1176,
+        "likesCount": 7368,
+        "keyDialogue": "这张卡 你随便说 计价会以计价少夫人的规格 好好招待你",
+        "climaxType": "许少夫人待遇",
+        "aiScore": 70,
+        "danmakuScore": 83.0,
+        "weightedScore": 73.9
+      }
+    },
+    {
+      "id": "ep5-h4",
+      "startTime": 96,
+      "endTime": 100,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "孩童拒指定婚事",
+      "title": "助力孩童拒指定婚事",
+      "description": "谭斑当众拒绝长辈安排的婚配对象，明确表示要娶荣誉姐姐",
+      "intensity": 8,
+      "interaction": {
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
+        "effect": "孩童拒指定婚事特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1206,
+        "likesCount": 6585,
+        "keyDialogue": "我不要刚刚那个人做我老婆 我要荣誉姐姐做我老婆",
+        "climaxType": "孩童拒指定婚事",
+        "aiScore": 80,
+        "danmakuScore": 76.3,
+        "weightedScore": 78.9
+      }
+    },
+    {
+      "id": "ep5-h5",
+      "startTime": 120,
+      "endTime": 123,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "揭露女子身份",
+      "title": "助力揭露女子身份",
+      "description": "大哥被孩童的胡搅蛮缠激怒，当众爆出荣誉是自己的亲生母亲，是核心身份反转点",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "揭露女子身份特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 591,
+        "likesCount": 1716,
+        "keyDialogue": "你这混蛋东西 她是我妈妈",
+        "climaxType": "揭露女子身份",
+        "aiScore": 100,
+        "danmakuScore": 23.1,
+        "weightedScore": 76.9
+      }
+    }
+  ]
+}

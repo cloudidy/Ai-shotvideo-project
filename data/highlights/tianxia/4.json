@@ -1,0 +1,124 @@
+{
+  "dramaId": "tianxia",
+  "dramaName": "天下第一纨绔",
+  "episodeId": 4,
+  "episodeName": "第4集",
+  "duration": 183,
+  "videoUrl": "/video/天下第一纨绔/第4集.mp4",
+  "generatedAt": "2026-06-05 18:07:20",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep4-h1",
+      "startTime": 5,
+      "endTime": 8,
+      "type": "opening",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "质问擅闯之人",
+      "title": "助力质问擅闯之人",
+      "description": "御师府的守卫发现不明人员闯入，当场厉声喝问对方身份",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "质问擅闯之人特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 129,
+        "likesCount": 132,
+        "keyDialogue": "你是谁 竟敢擅闯我御师府",
+        "climaxType": "质问擅闯之人",
+        "aiScore": 70,
+        "danmakuScore": 57.0,
+        "weightedScore": 66.1
+      }
+    },
+    {
+      "id": "ep4-h2",
+      "startTime": 46,
+      "endTime": 52,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "苏明武誓当驸马",
+      "title": "助力苏明武誓当驸马",
+      "description": "郑北侯长子苏明武向父亲表态，自己一定会在驸马选拔中胜出成为驸马",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "苏明武誓当驸马特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 121,
+        "likesCount": 71,
+        "keyDialogue": "爹 您放心 这次的公主皮肤选续 我一定会拔到头盔 成为驸马",
+        "climaxType": "苏明武誓当驸马",
+        "aiScore": 70,
+        "danmakuScore": 40.1,
+        "weightedScore": 61.0
+      }
+    },
+    {
+      "id": "ep4-h3",
+      "startTime": 90,
+      "endTime": 120,
+      "type": "climax",
+      "interactionType": "emperor-rage",
+      "emoji": "👑",
+      "label": "帝王戏份",
+      "title": "助力帝王戏份",
+      "description": "弹幕密度最高的时刻 (298条弹幕)",
+      "intensity": 8.0,
+      "interaction": {
+        "requiredClicks": 19.0,
+        "duration": 10.0,
+        "reward": 400.0,
+        "effect": "帝王戏份特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 298,
+        "likesCount": 112,
+        "keyDialogue": "",
+        "climaxType": "帝王戏份",
+        "aiScore": 0,
+        "danmakuScore": 82.7,
+        "weightedScore": 24.81
+      }
+    },
+    {
+      "id": "ep4-h4",
+      "startTime": 148,
+      "endTime": 152,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "继母吐露伪装真相",
+      "title": "助力继母吐露伪装真相",
+      "description": "苏明武母亲说出多年伪装慈母的真心话，计划等儿子当上驸马就不再演戏",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "继母吐露伪装真相特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 401,
+        "likesCount": 339,
+        "keyDialogue": "等我儿成为驸马 我就再也不用 演着慈母了",
+        "climaxType": "继母吐露伪装真相",
+        "aiScore": 90,
+        "danmakuScore": 100.0,
+        "weightedScore": 93.0
+      }
+    }
+  ]
+}

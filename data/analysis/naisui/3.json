@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 17,
+      "endTime": 27,
+      "type": "climax",
+      "label": "确诊三少爷痴傻",
+      "description": "医生诊断季家三少爷为创伤后器质性精神障碍，智力仅相当于五岁孩童，众人得知噩耗十分震惊",
+      "intensity": 8,
+      "keyDialogue": "这是创伤后气质性的精神障碍，伴随着严重的治理损伤，他现在治伤只有五岁孩子的水平"
+    },
+    {
+      "startTime": 50,
+      "endTime": 57,
+      "type": "climax",
+      "label": "提出治愈方案",
+      "description": "容小姐表示痴傻的三少爷并非重病，只需连续救治七七四十九天就能完全恢复正常，给季家众人带来希望",
+      "intensity": 7,
+      "keyDialogue": "不是什么大问题，只需要连续真究七七四十九天，即可完全恢复正常"
+    },
+    {
+      "startTime": 106,
+      "endTime": 124,
+      "type": "climax",
+      "label": "当场治愈驼背",
+      "description": "原本断言自己驼背多年根本治不好的人，在容小姐施治后当场痊愈，众人对容小姐的医术心服口服",
+      "intensity": 8,
+      "keyDialogue": "我这鸵背很多年了，根本就治不好 好了"
+    },
+    {
+      "startTime": 181,
+      "endTime": 205,
+      "type": "climax",
+      "label": "傻少爷要撩妹",
+      "description": "智力退化成五岁的三少爷看到漂亮小姐姐，主动提出要带对方兜风，被众人吐槽傻了还不忘泡妞",
+      "intensity": 6,
+      "keyDialogue": "小姐姐 你真漂亮 韩韩带你去兜风 傻成这个程度，还想着泡牛的事"
+    },
+    {
+      "startTime": 243,
+      "endTime": 251,
+      "type": "closing",
+      "label": "孕妇上门认亲",
+      "description": "下人向老爷通报门外有孕妇自称怀了痴傻三少爷的孩子，特意找上门要找三少爷，留下极强悬念",
+      "intensity": 10,
+      "keyDialogue": "老爷 外面有个孕妇 说怀了三少爷的孩子 要来找三少爷"
+    }
+  ]
+}

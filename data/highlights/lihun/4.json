@@ -1,0 +1,96 @@
+{
+  "dramaId": "lihun",
+  "dramaName": "幸得相遇离婚时",
+  "episodeId": 4,
+  "episodeName": "第4集",
+  "duration": 112,
+  "videoUrl": "/video/幸得相遇离婚时/第4集.mp4",
+  "generatedAt": "2026-06-05 18:40:16",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep4-h1",
+      "startTime": 13,
+      "endTime": 17,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "女主怕丈夫误会",
+      "title": "助力女主怕丈夫误会",
+      "description": "女子向同行男子解释自己躲着不肯露面的原因，怕被丈夫误会二人的关系",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "女主怕丈夫误会特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 153,
+        "likesCount": 276,
+        "keyDialogue": "那个人是我老公，我怕他误会",
+        "climaxType": "女主怕丈夫误会",
+        "aiScore": 70,
+        "danmakuScore": 93.0,
+        "weightedScore": 76.9
+      }
+    },
+    {
+      "id": "ep4-h2",
+      "startTime": 58,
+      "endTime": 60,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "男主感慨时隔多年",
+      "title": "助力男主感慨时隔多年",
+      "description": "男主发出感慨，点明他和女主已经分别了整整八年，时光太过久远",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "男主感慨时隔多年特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 268,
+        "likesCount": 198,
+        "keyDialogue": "八年的时间果然太久了",
+        "climaxType": "男主感慨时隔多年",
+        "aiScore": 70,
+        "danmakuScore": 99.3,
+        "weightedScore": 78.8
+      }
+    },
+    {
+      "id": "ep4-h3",
+      "startTime": 109,
+      "endTime": 110,
+      "type": "closing",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "妻子当场质问",
+      "title": "助力妻子当场质问",
+      "description": "正在和旁人暧昧通话的男子突然被妻子发问，撞破秘密的悬念瞬间拉满",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "妻子当场质问特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 76,
+        "likesCount": 30,
+        "keyDialogue": "你在跟谁打电话啊",
+        "climaxType": "妻子当场质问",
+        "aiScore": 90,
+        "danmakuScore": 21.0,
+        "weightedScore": 69.3
+      }
+    }
+  ]
+}

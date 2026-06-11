@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 4,
+      "endTime": 9,
+      "type": "opening",
+      "label": "高手坦言遇强敌",
+      "description": "被陛下夸赞武艺长进的顶尖高手告知陛下，刚才出手的并非自己，存在实力不在自己之下的人",
+      "intensity": 7,
+      "keyDialogue": "刚才不是我，是另有其人，这个人的实力，不在我之下"
+    },
+    {
+      "startTime": 36,
+      "endTime": 43,
+      "type": "climax",
+      "label": "点明比武招亲危机",
+      "description": "陛下坦言当前最头疼的是蛮疑的比武招亲事宜，明确表示己方绝对不能输",
+      "intensity": 8,
+      "keyDialogue": "现在让朕最为头疼的，就是那群蛮疑，比武招亲，我们绝对不能输"
+    },
+    {
+      "startTime": 43,
+      "endTime": 48,
+      "type": "climax",
+      "label": "陛下不满朝中子弟",
+      "description": "陛下吐槽朝中像苏语这样的废物太多，对当前的人才储备状况十分不放心",
+      "intensity": 7,
+      "keyDialogue": "可这朝政之后，若多如苏语这般废物，朕是着实不放心的"
+    },
+    {
+      "startTime": 49,
+      "endTime": 63,
+      "type": "climax",
+      "label": "下令测试权贵子弟",
+      "description": "陛下命令军武团摸排所有高官权贵子弟的实力，放话无才可用就推行军塔法",
+      "intensity": 9,
+      "keyDialogue": "你去测试一下，我朝中所有高官权贵的子弟，实力究竟如何，若实在是无才可用，朕就只能立军塔法了"
+    },
+    {
+      "startTime": 64,
+      "endTime": 73,
+      "type": "closing",
+      "label": "苏语测试留悬念",
+      "description": "下属询问陛下是否要测试苏语，陛下未给出明确答复让其自行决断，留下剧情钩子",
+      "intensity": 8,
+      "keyDialogue": "那这个苏语要测吗，你看着办吧"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "dramaId": "naisui",
+  "dramaName": "十八岁太奶奶驾到",
+  "episodeId": 1,
+  "episodeName": "第1集",
+  "duration": 245,
+  "videoUrl": "/video/十八岁太奶奶驾到/第1集.mp4",
+  "generatedAt": "2026-06-05 18:40:02",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep1-h1",
+      "startTime": 0,
+      "endTime": 41,
+      "type": "opening",
+      "interactionType": "liuyanru-entrance",
+      "emoji": "👸",
+      "label": "季家少爷登场",
+      "title": "助力季家少爷登场",
+      "description": "路人围观议论身份各异的季家少爷们集体现身，引发周围人惊叹",
+      "intensity": 6,
+      "interaction": {
+        "requiredClicks": 15,
+        "duration": 8,
+        "reward": 300,
+        "effect": "季家少爷登场特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 9403,
+        "likesCount": 6548,
+        "keyDialogue": "快看 季家少爷们来了",
+        "climaxType": "季家少爷登场",
+        "aiScore": 60,
+        "danmakuScore": 87.1,
+        "weightedScore": 68.1
+      }
+    },
+    {
+      "id": "ep1-h2",
+      "startTime": 73,
+      "endTime": 78,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "女主霸气放话",
+      "title": "助力女主霸气放话",
+      "description": "被路人嘲讽永远不可能加入季家豪门的女主当众说出惊人宣言，旁人纷纷表示难以置信",
+      "intensity": 8,
+      "interaction": {
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
+        "effect": "女主霸气放话特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 1197,
+        "likesCount": 4333,
+        "keyDialogue": "我不需要进季家，因为我在哪，季家就在哪",
+        "climaxType": "女主霸气放话",
+        "aiScore": 80,
+        "danmakuScore": 45.0,
+        "weightedScore": 69.5
+      }
+    },
+    {
+      "id": "ep1-h3",
+      "startTime": 117,
+      "endTime": 142,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "身份惊天反转",
+      "title": "助力身份惊天反转",
+      "description": "女主自曝穿越身份，揭露自己是季家少爷们的长辈，直接推翻此前所有人的认知，是全片最大反转",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "身份惊天反转特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 5817,
+        "likesCount": 10153,
+        "keyDialogue": "我叫荣誉，是从1955年穿越而来，当年我因意外去世，穿越到了七十年后同名同姓的十八岁少女身上，重新遇见了我的儿子和重孙子",
+        "climaxType": "身份惊天反转",
+        "aiScore": 100,
+        "danmakuScore": 89.7,
+        "weightedScore": 96.9
+      }
+    },
+    {
+      "id": "ep1-h4",
+      "startTime": 150,
+      "endTime": 180,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (2612条弹幕)",
+      "intensity": 8.0,
+      "interaction": {
+        "requiredClicks": 19.0,
+        "duration": 10.0,
+        "reward": 400.0,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 2612,
+        "likesCount": 8432,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 89.8,
+        "weightedScore": 26.939999999999998
+      }
+    },
+    {
+      "id": "ep1-h5",
+      "startTime": 180,
+      "endTime": 210,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "弹幕巅峰",
+      "title": "助力弹幕巅峰",
+      "description": "弹幕密度最高的时刻 (3416条弹幕)",
+      "intensity": 10,
+      "interaction": {
+        "requiredClicks": 23,
+        "duration": 12,
+        "reward": 500,
+        "effect": "弹幕巅峰特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 3416,
+        "likesCount": 9104,
+        "keyDialogue": "",
+        "climaxType": "弹幕巅峰",
+        "aiScore": 0,
+        "danmakuScore": 100.0,
+        "weightedScore": 30.0
+      }
+    }
+  ]
+}

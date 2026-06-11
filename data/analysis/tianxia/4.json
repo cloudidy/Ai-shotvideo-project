@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 5,
+      "endTime": 8,
+      "type": "opening",
+      "label": "质问擅闯之人",
+      "description": "御师府的守卫发现不明人员闯入，当场厉声喝问对方身份",
+      "intensity": 7,
+      "keyDialogue": "你是谁 竟敢擅闯我御师府"
+    },
+    {
+      "startTime": 34,
+      "endTime": 39,
+      "type": "climax",
+      "label": "考官吐槽参选者",
+      "description": "考核官员不满参选的权贵子弟实力太差，担忧没人能赢过比武高手赵青",
+      "intensity": 6,
+      "keyDialogue": "这些权归之后 就这点东西 怎么赢得了比武赵青"
+    },
+    {
+      "startTime": 46,
+      "endTime": 52,
+      "type": "climax",
+      "label": "苏明武誓当驸马",
+      "description": "郑北侯长子苏明武向父亲表态，自己一定会在驸马选拔中胜出成为驸马",
+      "intensity": 7,
+      "keyDialogue": "爹 您放心 这次的公主皮肤选续 我一定会拔到头盔 成为驸马"
+    },
+    {
+      "startTime": 148,
+      "endTime": 152,
+      "type": "climax",
+      "label": "继母吐露伪装真相",
+      "description": "苏明武母亲说出多年伪装慈母的真心话，计划等儿子当上驸马就不再演戏",
+      "intensity": 9,
+      "keyDialogue": "等我儿成为驸马 我就再也不用 演着慈母了"
+    },
+    {
+      "startTime": 147,
+      "endTime": 148,
+      "type": "closing",
+      "label": "追问神秘人身份",
+      "description": "在场众人对突然现身的陌生强者身份极度疑惑，厉声追问对方真实身份",
+      "intensity": 8,
+      "keyDialogue": "你到底是谁"
+    }
+  ]
+}

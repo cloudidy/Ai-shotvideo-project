@@ -1,0 +1,68 @@
+{
+  "dramaId": "tianxia",
+  "dramaName": "天下第一纨绔",
+  "episodeId": 2,
+  "episodeName": "第2集",
+  "duration": 75,
+  "videoUrl": "/video/天下第一纨绔/第2集.mp4",
+  "generatedAt": "2026-06-05 18:06:13",
+  "analysisMethod": "Whisper字幕 + AI语义分析(70%) + 弹幕数据分析(30%)",
+  "highlights": [
+    {
+      "id": "ep2-h1",
+      "startTime": 4,
+      "endTime": 9,
+      "type": "opening",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "高手坦言遇强敌",
+      "title": "助力高手坦言遇强敌",
+      "description": "被陛下夸赞武艺长进的顶尖高手告知陛下，刚才出手的并非自己，存在实力不在自己之下的人",
+      "intensity": 7,
+      "interaction": {
+        "requiredClicks": 17,
+        "duration": 9,
+        "reward": 350,
+        "effect": "高手坦言遇强敌特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 240,
+        "likesCount": 134,
+        "keyDialogue": "刚才不是我，是另有其人，这个人的实力，不在我之下",
+        "climaxType": "高手坦言遇强敌",
+        "aiScore": 70,
+        "danmakuScore": 94.4,
+        "weightedScore": 77.3
+      }
+    },
+    {
+      "id": "ep2-h2",
+      "startTime": 49,
+      "endTime": 63,
+      "type": "climax",
+      "interactionType": "challenge-accept",
+      "emoji": "⚔️",
+      "label": "下令测试权贵子弟",
+      "title": "助力下令测试权贵子弟",
+      "description": "陛下命令军武团摸排所有高官权贵子弟的实力，放话无才可用就推行军塔法",
+      "intensity": 9,
+      "interaction": {
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
+        "effect": "下令测试权贵子弟特效",
+        "sound": "/sounds/hit.mp3"
+      },
+      "metadata": {
+        "danmakuCount": 354,
+        "likesCount": 118,
+        "keyDialogue": "你去测试一下，我朝中所有高官权贵的子弟，实力究竟如何，若实在是无才可用，朕就只能立军塔法了",
+        "climaxType": "下令测试权贵子弟",
+        "aiScore": 90,
+        "danmakuScore": 100.0,
+        "weightedScore": 93.0
+      }
+    }
+  ]
+}

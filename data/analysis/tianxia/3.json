@@ -1,0 +1,49 @@
+{
+  "highlights": [
+    {
+      "startTime": 5,
+      "endTime": 12,
+      "type": "opening",
+      "label": "侯爷怒斥孽子",
+      "description": "振北侯得知二儿子又欠下十万两赌债，当众暴怒痛骂儿子是文不成武不就的废物",
+      "intensity": 7,
+      "keyDialogue": "我怎么就生出他这么个孽障东西，文不诚武不救，整日就知道流烈与烟花之地"
+    },
+    {
+      "startTime": 105,
+      "endTime": 109,
+      "type": "climax",
+      "label": "男主戳穿伪装",
+      "description": "所有人离场后，一直伪装成纨绔的二儿子直接点破后娘丽真演了十五年戏的事实",
+      "intensity": 9,
+      "keyDialogue": "丽真，演了十五年的词，也真是难为你了"
+    },
+    {
+      "startTime": 136,
+      "endTime": 140,
+      "type": "climax",
+      "label": "揭露弑母真相",
+      "description": "男主意外偷听到后娘和大哥的对话，得知自己的亲生母亲是被后娘下药害死的",
+      "intensity": 10,
+      "keyDialogue": "苏语她娘，不就是你下药"
+    },
+    {
+      "startTime": 154,
+      "endTime": 160,
+      "type": "climax",
+      "label": "吐露恶毒阴谋",
+      "description": "后娘坦言多年来故意纵容男主花天酒地把他养废，只为让亲儿子坐稳侯府继承人位置",
+      "intensity": 8,
+      "keyDialogue": "娘只有把她养成一个废物，才能保住你继承人的位置"
+    },
+    {
+      "startTime": 171,
+      "endTime": 178,
+      "type": "closing",
+      "label": "男主隐忍待发",
+      "description": "男主清楚后娘是丞相之女，父亲绝不会相信自己的指控，决定隐忍等待复仇时机",
+      "intensity": 7,
+      "keyDialogue": "即便告诉你爹，他杀了娘，爹也不会相信我，现在只能等待时机"
+    }
+  ]
+}
