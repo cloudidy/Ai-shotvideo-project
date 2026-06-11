@@ -31,13 +31,18 @@ const dramaList = [
       { id: 5, name: '第5集', path: `${COS_BASE}/${COS_DIR}/第5集.mp4` },
     ],
   },
-  // 后续上传更多视频后可添加其他剧集
-  // {
-  //   id: 'naisui',
-  //   name: '十八岁太奶奶驾到',
-  //   emoji: '👵',
-  //   episodes: [...],
-  // },
+  {
+    id: 'naisui',
+    name: '十八岁太奶奶驾到',
+    emoji: '👵',
+    episodes: [
+      { id: 1, name: '第1集', path: `${COS_BASE}/短剧视频/十八岁太奶奶驾到/第1集.mp4` },
+      { id: 2, name: '第2集', path: `${COS_BASE}/短剧视频/十八岁太奶奶驾到/第2集.mp4` },
+      { id: 3, name: '第3集', path: `${COS_BASE}/短剧视频/十八岁太奶奶驾到/第3集.mp4` },
+      { id: 4, name: '第4集', path: `${COS_BASE}/短剧视频/十八岁太奶奶驾到/第4集.mp4` },
+      { id: 5, name: '第5集', path: `${COS_BASE}/短剧视频/十八岁太奶奶驾到/第5集.mp4` },
+    ],
+  },
 ]
 
 export default function Home() {
