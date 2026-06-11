@@ -13,18 +13,18 @@ import {
   type HighlightPoint,
 } from '@/lib/highlights'
 
-// 短剧数据配置
+// 短剧数据配置（通过Vercel代理访问腾讯云COS视频，避免跨域问题）
 const dramaList = [
   {
     id: 'tianxia',
     name: '天下第一纨绔',
     emoji: '👑',
     episodes: [
-      { id: 1, name: '第1集', path: 'https://ai-video-demo-1442345125.cos.ap-guangzhou.myqcloud.com/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC1%E9%9B%86.mp4' },
-      { id: 2, name: '第2集', path: 'https://ai-video-demo-1442345125.cos.ap-guangzhou.myqcloud.com/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC2%E9%9B%86.mp4' },
-      { id: 3, name: '第3集', path: 'https://ai-video-demo-1442345125.cos.ap-guangzhou.myqcloud.com/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC3%E9%9B%86.mp4' },
-      { id: 4, name: '第4集', path: 'https://ai-video-demo-1442345125.cos.ap-guangzhou.myqcloud.com/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC4%E9%9B%86.mp4' },
-      { id: 5, name: '第5集', path: 'https://ai-video-demo-1442345125.cos.ap-guangzhou.myqcloud.com/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC5%E9%9B%86.mp4' },
+      { id: 1, name: '第1集', path: '/cos-video/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC1%E9%9B%86.mp4' },
+      { id: 2, name: '第2集', path: '/cos-video/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC2%E9%9B%86.mp4' },
+      { id: 3, name: '第3集', path: '/cos-video/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC3%E9%9B%86.mp4' },
+      { id: 4, name: '第4集', path: '/cos-video/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC4%E9%9B%86.mp4' },
+      { id: 5, name: '第5集', path: '/cos-video/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94/%E7%AC%AC5%E9%9B%86.mp4' },
     ],
   },
   // 后续上传更多视频后可添加其他剧集

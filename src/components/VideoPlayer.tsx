@@ -258,7 +258,6 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
         ref={videoRef}
         className="w-full h-full object-contain"
         src={config.url}
-        crossOrigin="anonymous"
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
         onPlay={() => setIsPlaying(true)}
