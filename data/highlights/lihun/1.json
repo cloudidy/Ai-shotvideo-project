@@ -32,9 +32,10 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "弹幕"
     },
     {
       "id": "ep1-h2",
@@ -60,9 +61,10 @@
         "keyDialogue": "最近怎么老梦到 八年前了",
         "climaxType": "提及八年前往事",
         "aiScore": 60,
-        "danmakuScore": 58.0,
+        "danmakuScore": 58,
         "weightedScore": 59.4
-      }
+      },
+      "keyword": "提及"
     },
     {
       "id": "ep1-h3",
@@ -90,7 +92,8 @@
         "aiScore": 70,
         "danmakuScore": 42.9,
         "weightedScore": 61.9
-      }
+      },
+      "keyword": "妻子"
     },
     {
       "id": "ep1-h4",
@@ -118,7 +121,8 @@
         "aiScore": 70,
         "danmakuScore": 93.8,
         "weightedScore": 77.1
-      }
+      },
+      "keyword": "神秘"
     },
     {
       "id": "ep1-h5",
@@ -146,7 +150,8 @@
         "aiScore": 60,
         "danmakuScore": 93.8,
         "weightedScore": 70.1
-      }
+      },
+      "keyword": "上司"
     }
   ]
 }

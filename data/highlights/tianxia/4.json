@@ -32,9 +32,10 @@
         "keyDialogue": "你是谁 竟敢擅闯我御师府",
         "climaxType": "质问擅闯之人",
         "aiScore": 70,
-        "danmakuScore": 57.0,
+        "danmakuScore": 57,
         "weightedScore": 66.1
-      }
+      },
+      "keyword": "质问"
     },
     {
       "id": "ep4-h2",
@@ -61,8 +62,9 @@
         "climaxType": "苏明武誓当驸马",
         "aiScore": 70,
         "danmakuScore": 40.1,
-        "weightedScore": 61.0
-      }
+        "weightedScore": 61
+      },
+      "keyword": "苏明"
     },
     {
       "id": "ep4-h3",
@@ -74,11 +76,11 @@
       "label": "帝王戏份",
       "title": "助力帝王戏份",
       "description": "弹幕密度最高的时刻 (298条弹幕)",
-      "intensity": 8.0,
+      "intensity": 8,
       "interaction": {
-        "requiredClicks": 19.0,
-        "duration": 10.0,
-        "reward": 400.0,
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
         "effect": "帝王戏份特效",
         "sound": "/sounds/hit.mp3"
       },
@@ -90,7 +92,8 @@
         "aiScore": 0,
         "danmakuScore": 82.7,
         "weightedScore": 24.81
-      }
+      },
+      "keyword": "帝王"
     },
     {
       "id": "ep4-h4",
@@ -116,9 +119,10 @@
         "keyDialogue": "等我儿成为驸马 我就再也不用 演着慈母了",
         "climaxType": "继母吐露伪装真相",
         "aiScore": 90,
-        "danmakuScore": 100.0,
-        "weightedScore": 93.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 93
+      },
+      "keyword": "继母"
     }
   ]
 }

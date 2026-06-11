@@ -34,7 +34,8 @@
         "aiScore": 80,
         "danmakuScore": 55.6,
         "weightedScore": 72.7
-      }
+      },
+      "keyword": "确诊"
     },
     {
       "id": "ep3-h2",
@@ -60,9 +61,10 @@
         "keyDialogue": "不是什么大问题，只需要连续真究七七四十九天，即可完全恢复正常",
         "climaxType": "提出治愈方案",
         "aiScore": 70,
-        "danmakuScore": 49.0,
+        "danmakuScore": 49,
         "weightedScore": 63.7
-      }
+      },
+      "keyword": "提出"
     },
     {
       "id": "ep3-h3",
@@ -90,7 +92,8 @@
         "aiScore": 80,
         "danmakuScore": 81.2,
         "weightedScore": 80.4
-      }
+      },
+      "keyword": "当场"
     },
     {
       "id": "ep3-h4",
@@ -116,9 +119,10 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "弹幕"
     },
     {
       "id": "ep3-h5",
@@ -146,7 +150,8 @@
         "aiScore": 60,
         "danmakuScore": 62.7,
         "weightedScore": 60.8
-      }
+      },
+      "keyword": "傻少"
     }
   ]
 }

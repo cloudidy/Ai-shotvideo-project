@@ -34,7 +34,8 @@
         "aiScore": 30,
         "danmakuScore": 27.4,
         "weightedScore": 29.2
-      }
+      },
+      "keyword": "介绍"
     },
     {
       "id": "ep2-h2",
@@ -62,7 +63,8 @@
         "aiScore": 60,
         "danmakuScore": 16.3,
         "weightedScore": 46.9
-      }
+      },
+      "keyword": "认知"
     },
     {
       "id": "ep2-h3",
@@ -88,9 +90,10 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "弹幕"
     },
     {
       "id": "ep2-h4",
@@ -116,9 +119,10 @@
         "keyDialogue": "为什么我不能做他这样的拜贼 梭花花公子 需要一些颜值要求的",
         "climaxType": "兄弟趣味互怼",
         "aiScore": 70,
-        "danmakuScore": 100.0,
-        "weightedScore": 79.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 79
+      },
+      "keyword": "兄弟"
     },
     {
       "id": "ep2-h5",
@@ -144,9 +148,10 @@
         "keyDialogue": "你整容了",
         "climaxType": "老三露面震惊",
         "aiScore": 90,
-        "danmakuScore": 28.0,
+        "danmakuScore": 28,
         "weightedScore": 71.4
-      }
+      },
+      "keyword": "老三"
     }
   ]
 }

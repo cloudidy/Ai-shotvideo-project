@@ -162,6 +162,7 @@ export function generateInteractionPointsFromHighlights(
       time: h.time,
       type: type,
       title: `助力${effect.title}`,
+      keyword: h.keyword,
       requiredClicks: 12,
       duration: buttonDuration,
       reward: {

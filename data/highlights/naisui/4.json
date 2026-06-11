@@ -32,9 +32,10 @@
         "keyDialogue": "我本来是跟慕恒回来见家长的，但是路上就找不着他了，怎么找都找不着，结果好不容易见到，他怎么变傻子了",
         "climaxType": "抛出核心冲突",
         "aiScore": 60,
-        "danmakuScore": 100.0,
-        "weightedScore": 72.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 72
+      },
+      "keyword": "抛出"
     },
     {
       "id": "ep4-h2",
@@ -60,9 +61,10 @@
         "keyDialogue": "虽然他变傻了，但我还是会爱他，我会爱他",
         "climaxType": "表态不离不弃",
         "aiScore": 70,
-        "danmakuScore": 100.0,
-        "weightedScore": 79.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 79
+      },
+      "keyword": "表态"
     },
     {
       "id": "ep4-h3",
@@ -90,7 +92,8 @@
         "aiScore": 80,
         "danmakuScore": 26.1,
         "weightedScore": 63.8
-      }
+      },
+      "keyword": "当场"
     },
     {
       "id": "ep4-h4",
@@ -118,7 +121,8 @@
         "aiScore": 90,
         "danmakuScore": 51.2,
         "weightedScore": 78.4
-      }
+      },
+      "keyword": "女子"
     },
     {
       "id": "ep4-h5",
@@ -144,9 +148,10 @@
         "keyDialogue": "你去把三弟的死机叫过来，咱们一去哪儿都会带着他",
         "climaxType": "引出后续对质",
         "aiScore": 70,
-        "danmakuScore": 14.0,
+        "danmakuScore": 14,
         "weightedScore": 53.2
-      }
+      },
+      "keyword": "引出"
     }
   ]
 }

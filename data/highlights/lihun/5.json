@@ -32,9 +32,10 @@
         "keyDialogue": "你在跟谁打电话 客户",
         "climaxType": "开场盘问通话",
         "aiScore": 30,
-        "danmakuScore": 100.0,
-        "weightedScore": 51.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 51
+      },
+      "keyword": "开场"
     },
     {
       "id": "ep5-h2",
@@ -62,7 +63,8 @@
         "aiScore": 90,
         "danmakuScore": 80.8,
         "weightedScore": 87.2
-      }
+      },
+      "keyword": "立下"
     },
     {
       "id": "ep5-h3",
@@ -90,7 +92,8 @@
         "aiScore": 60,
         "danmakuScore": 80.8,
         "weightedScore": 66.2
-      }
+      },
+      "keyword": "结尾"
     }
   ]
 }

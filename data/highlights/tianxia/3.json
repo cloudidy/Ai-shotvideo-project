@@ -13,7 +13,7 @@
       "startTime": 5,
       "endTime": 12,
       "type": "opening",
-      "interactionType": "emperor-rage",
+      "interactionType": "revenge",
       "emoji": "👑",
       "label": "侯爷怒斥孽子",
       "title": "助力侯爷怒斥孽子",
@@ -34,23 +34,24 @@
         "aiScore": 70,
         "danmakuScore": 25.1,
         "weightedScore": 56.5
-      }
+      },
+      "keyword": "怒斥"
     },
     {
       "id": "ep3-h2",
       "startTime": 30,
       "endTime": 60,
       "type": "climax",
-      "interactionType": "challenge-accept",
+      "interactionType": "sweet",
       "emoji": "⚔️",
       "label": "弹幕巅峰",
       "title": "助力弹幕巅峰",
       "description": "弹幕密度最高的时刻 (658条弹幕)",
-      "intensity": 8.0,
+      "intensity": 8,
       "interaction": {
-        "requiredClicks": 19.0,
-        "duration": 10.0,
-        "reward": 400.0,
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
         "effect": "弹幕巅峰特效",
         "sound": "/sounds/hit.mp3"
       },
@@ -62,14 +63,15 @@
         "aiScore": 0,
         "danmakuScore": 84.8,
         "weightedScore": 25.439999999999998
-      }
+      },
+      "keyword": "可爱"
     },
     {
       "id": "ep3-h3",
       "startTime": 60,
       "endTime": 90,
       "type": "climax",
-      "interactionType": "challenge-accept",
+      "interactionType": "upgrade",
       "emoji": "⚔️",
       "label": "弹幕巅峰",
       "title": "助力弹幕巅峰",
@@ -88,16 +90,17 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "突破"
     },
     {
       "id": "ep3-h4",
       "startTime": 105,
       "endTime": 109,
       "type": "climax",
-      "interactionType": "challenge-accept",
+      "interactionType": "justice",
       "emoji": "⚔️",
       "label": "男主戳穿伪装",
       "title": "助力男主戳穿伪装",
@@ -118,15 +121,16 @@
         "aiScore": 90,
         "danmakuScore": 55.3,
         "weightedScore": 79.6
-      }
+      },
+      "keyword": "戳穿"
     },
     {
       "id": "ep3-h5",
       "startTime": 136,
       "endTime": 140,
       "type": "climax",
-      "interactionType": "challenge-accept",
-      "emoji": "⚔️",
+      "interactionType": "revenge",
+      "emoji": "💖",
       "label": "揭露弑母真相",
       "title": "助力揭露弑母真相",
       "description": "男主意外偷听到后娘和大哥的对话，得知自己的亲生母亲是被后娘下药害死的",
@@ -145,8 +149,9 @@
         "climaxType": "揭露弑母真相",
         "aiScore": 100,
         "danmakuScore": 23.5,
-        "weightedScore": 77.0
-      }
+        "weightedScore": 77
+      },
+      "keyword": "弑母"
     }
   ]
 }

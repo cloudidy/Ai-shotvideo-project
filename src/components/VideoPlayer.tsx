@@ -70,6 +70,8 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
   const [completedType, setCompletedType] = useState<string>('')
   const [completedKeyword, setCompletedKeyword] = useState<string>('')
   const [timeLeft, setTimeLeft] = useState(0)
+  const [videoError, setVideoError] = useState<string | null>(null)
+  const [isLoading, setIsLoading] = useState(true)
   const timerRef = useRef<NodeJS.Timeout | null>(null)
   const activeInteractionRef = useRef<InteractionPoint | null>(null)
 
@@ -118,6 +120,8 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
     setShowEffect(false)
     setCompletedType('')
     setTimeLeft(0)
+    setVideoError(null)
+    setIsLoading(true)
   }, [config.url])
 
   // 根据高光点数据生成互动点
@@ -266,8 +270,54 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
           setIsPlaying(false)
           if (onEnded) onEnded()
         }}
+        onError={(e) => {
+          const video = e.currentTarget
+          const error = video.error
+          const msg = error
+            ? `视频加载失败 (错误码: ${error.code})`
+            : '视频加载失败，请检查网络连接'
+          setVideoError(msg)
+          setIsLoading(false)
+        }}
+        onCanPlay={() => {
+          setIsLoading(false)
+          setVideoError(null)
+        }}
+        onWaiting={() => setIsLoading(true)}
+        onPlaying={() => setIsLoading(false)}
         playsInline
       />
+
+      {/* 加载/错误状态覆盖层 */}
+      {(isLoading && !videoError) && (
+        <div className="absolute inset-0 flex items-center justify-center bg-black/60 z-50 pointer-events-none">
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-10 h-10 border-3 border-orange-500 border-t-transparent rounded-full animate-spin" />
+            <span className="text-gray-300 text-sm">视频加载中...</span>
+          </div>
+        </div>
+      )}
+      {videoError && (
+        <div className="absolute inset-0 flex items-center justify-center bg-black/80 z-50">
+          <div className="flex flex-col items-center gap-3 px-6 text-center">
+            <span className="text-4xl">⚠️</span>
+            <span className="text-red-400 text-sm font-medium">{videoError}</span>
+            <span className="text-gray-500 text-xs">请检查网络或刷新页面重试</span>
+            <button
+              onClick={() => {
+                setVideoError(null)
+                setIsLoading(true)
+                if (videoRef.current) {
+                  videoRef.current.load()
+                }
+              }}
+              className="mt-2 px-4 py-1.5 bg-orange-500/20 border border-orange-500/50 rounded-lg text-orange-400 text-sm hover:bg-orange-500/30 transition-colors"
+            >
+              重新加载
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* 自定义控制栏 */}
       <div className="absolute bottom-24 left-0 right-0 z-40 flex items-center justify-between px-4 pointer-events-auto">

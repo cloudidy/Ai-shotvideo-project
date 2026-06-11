@@ -34,7 +34,8 @@
         "aiScore": 70,
         "danmakuScore": 27.5,
         "weightedScore": 57.2
-      }
+      },
+      "keyword": "放话"
     },
     {
       "id": "ep2-h2",
@@ -62,7 +63,8 @@
         "aiScore": 90,
         "danmakuScore": 27.6,
         "weightedScore": 71.3
-      }
+      },
+      "keyword": "下令"
     },
     {
       "id": "ep2-h3",
@@ -88,9 +90,10 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "弹幕"
     },
     {
       "id": "ep2-h4",
@@ -118,7 +121,8 @@
         "aiScore": 60,
         "danmakuScore": 35.3,
         "weightedScore": 52.6
-      }
+      },
+      "keyword": "埋下"
     }
   ]
 }

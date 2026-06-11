@@ -18,11 +18,11 @@
       "label": "弹幕巅峰",
       "title": "助力弹幕巅峰",
       "description": "弹幕密度最高的时刻 (492条弹幕)",
-      "intensity": 9.0,
+      "intensity": 9,
       "interaction": {
-        "requiredClicks": 21.0,
-        "duration": 11.0,
-        "reward": 450.0,
+        "requiredClicks": 21,
+        "duration": 11,
+        "reward": 450,
         "effect": "弹幕巅峰特效",
         "sound": "/sounds/hit.mp3"
       },
@@ -34,7 +34,8 @@
         "aiScore": 0,
         "danmakuScore": 99.4,
         "weightedScore": 29.82
-      }
+      },
+      "keyword": "弹幕"
     },
     {
       "id": "ep3-h2",
@@ -62,7 +63,8 @@
         "aiScore": 70,
         "danmakuScore": 99.4,
         "weightedScore": 78.8
-      }
+      },
+      "keyword": "丈夫"
     },
     {
       "id": "ep3-h3",
@@ -90,7 +92,8 @@
         "aiScore": 80,
         "danmakuScore": 78.9,
         "weightedScore": 79.7
-      }
+      },
+      "keyword": "被追"
     },
     {
       "id": "ep3-h4",
@@ -116,9 +119,10 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "弹幕"
     },
     {
       "id": "ep3-h5",
@@ -145,8 +149,9 @@
         "climaxType": "拒绝下车留悬念",
         "aiScore": 90,
         "danmakuScore": 13.5,
-        "weightedScore": 67.0
-      }
+        "weightedScore": 67
+      },
+      "keyword": "拒绝"
     }
   ]
 }

@@ -32,9 +32,10 @@
         "keyDialogue": "那个人是我老公，我怕他误会",
         "climaxType": "女主怕丈夫误会",
         "aiScore": 70,
-        "danmakuScore": 93.0,
+        "danmakuScore": 93,
         "weightedScore": 76.9
-      }
+      },
+      "keyword": "女主"
     },
     {
       "id": "ep4-h2",
@@ -62,7 +63,8 @@
         "aiScore": 70,
         "danmakuScore": 99.3,
         "weightedScore": 78.8
-      }
+      },
+      "keyword": "男主"
     },
     {
       "id": "ep4-h3",
@@ -88,9 +90,10 @@
         "keyDialogue": "你在跟谁打电话啊",
         "climaxType": "妻子当场质问",
         "aiScore": 90,
-        "danmakuScore": 21.0,
+        "danmakuScore": 21,
         "weightedScore": 69.3
-      }
+      },
+      "keyword": "妻子"
     }
   ]
 }

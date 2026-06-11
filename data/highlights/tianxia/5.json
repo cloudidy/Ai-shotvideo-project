@@ -32,9 +32,10 @@
         "keyDialogue": "",
         "climaxType": "主角高光",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "主角"
     },
     {
       "id": "ep5-h2",
@@ -62,7 +63,8 @@
         "aiScore": 60,
         "danmakuScore": 62.3,
         "weightedScore": 60.7
-      }
+      },
+      "keyword": "设局"
     },
     {
       "id": "ep5-h3",
@@ -90,7 +92,8 @@
         "aiScore": 90,
         "danmakuScore": 93.9,
         "weightedScore": 91.2
-      }
+      },
+      "keyword": "以命"
     },
     {
       "id": "ep5-h4",
@@ -118,7 +121,8 @@
         "aiScore": 100,
         "danmakuScore": 62.6,
         "weightedScore": 88.8
-      }
+      },
+      "keyword": "逼主"
     }
   ]
 }

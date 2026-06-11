@@ -28,6 +28,7 @@ export interface HighlightPoint {
   title: string
   description: string
   intensity: number
+  keyword?: string
   interaction: HighlightInteraction
   metadata: HighlightMetadata
 }

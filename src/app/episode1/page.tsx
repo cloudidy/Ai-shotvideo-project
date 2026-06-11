@@ -72,6 +72,7 @@ export default function Episode1Page() {
             config={config}
             onScoreUpdate={handleScoreUpdate}
             onTimeUpdate={setCurrentTime}
+            highlights={highlightsData?.highlights || []}
           />
         </div>
 

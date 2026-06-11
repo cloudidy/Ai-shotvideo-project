@@ -13,7 +13,7 @@
       "startTime": 0,
       "endTime": 41,
       "type": "opening",
-      "interactionType": "liuyanru-entrance",
+      "interactionType": "sweet",
       "emoji": "👸",
       "label": "季家少爷登场",
       "title": "助力季家少爷登场",
@@ -34,14 +34,15 @@
         "aiScore": 60,
         "danmakuScore": 87.1,
         "weightedScore": 68.1
-      }
+      },
+      "keyword": "少爷"
     },
     {
       "id": "ep1-h2",
       "startTime": 73,
       "endTime": 78,
       "type": "climax",
-      "interactionType": "challenge-accept",
+      "interactionType": "justice",
       "emoji": "⚔️",
       "label": "女主霸气放话",
       "title": "助力女主霸气放话",
@@ -60,17 +61,18 @@
         "keyDialogue": "我不需要进季家，因为我在哪，季家就在哪",
         "climaxType": "女主霸气放话",
         "aiScore": 80,
-        "danmakuScore": 45.0,
+        "danmakuScore": 45,
         "weightedScore": 69.5
-      }
+      },
+      "keyword": "霸气"
     },
     {
       "id": "ep1-h3",
       "startTime": 117,
       "endTime": 142,
       "type": "climax",
-      "interactionType": "challenge-accept",
-      "emoji": "⚔️",
+      "interactionType": "super-danmaku-liuyanru",
+      "emoji": "💖",
       "label": "身份惊天反转",
       "title": "助力身份惊天反转",
       "description": "女主自曝穿越身份，揭露自己是季家少爷们的长辈，直接推翻此前所有人的认知，是全片最大反转",
@@ -90,23 +92,24 @@
         "aiScore": 100,
         "danmakuScore": 89.7,
         "weightedScore": 96.9
-      }
+      },
+      "keyword": "反转"
     },
     {
       "id": "ep1-h4",
       "startTime": 150,
       "endTime": 180,
       "type": "climax",
-      "interactionType": "challenge-accept",
+      "interactionType": "revenge",
       "emoji": "⚔️",
       "label": "弹幕巅峰",
       "title": "助力弹幕巅峰",
       "description": "弹幕密度最高的时刻 (2612条弹幕)",
-      "intensity": 8.0,
+      "intensity": 8,
       "interaction": {
-        "requiredClicks": 19.0,
-        "duration": 10.0,
-        "reward": 400.0,
+        "requiredClicks": 19,
+        "duration": 10,
+        "reward": 400,
         "effect": "弹幕巅峰特效",
         "sound": "/sounds/hit.mp3"
       },
@@ -118,14 +121,15 @@
         "aiScore": 0,
         "danmakuScore": 89.8,
         "weightedScore": 26.939999999999998
-      }
+      },
+      "keyword": "逆袭"
     },
     {
       "id": "ep1-h5",
       "startTime": 180,
       "endTime": 210,
       "type": "climax",
-      "interactionType": "challenge-accept",
+      "interactionType": "upgrade",
       "emoji": "⚔️",
       "label": "弹幕巅峰",
       "title": "助力弹幕巅峰",
@@ -144,9 +148,10 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "爆发"
     }
   ]
 }

@@ -32,9 +32,10 @@
         "keyDialogue": "",
         "climaxType": "弹幕巅峰",
         "aiScore": 0,
-        "danmakuScore": 100.0,
-        "weightedScore": 30.0
-      }
+        "danmakuScore": 100,
+        "weightedScore": 30
+      },
+      "keyword": "弹幕"
     },
     {
       "id": "ep5-h2",
@@ -62,7 +63,8 @@
         "aiScore": 60,
         "danmakuScore": 50.2,
         "weightedScore": 57.1
-      }
+      },
+      "keyword": "安排"
     },
     {
       "id": "ep5-h3",
@@ -88,9 +90,10 @@
         "keyDialogue": "这张卡 你随便说 计价会以计价少夫人的规格 好好招待你",
         "climaxType": "许少夫人待遇",
         "aiScore": 70,
-        "danmakuScore": 83.0,
+        "danmakuScore": 83,
         "weightedScore": 73.9
-      }
+      },
+      "keyword": "许少"
     },
     {
       "id": "ep5-h4",
@@ -118,7 +121,8 @@
         "aiScore": 80,
         "danmakuScore": 76.3,
         "weightedScore": 78.9
-      }
+      },
+      "keyword": "孩童"
     },
     {
       "id": "ep5-h5",
@@ -146,7 +150,8 @@
         "aiScore": 100,
         "danmakuScore": 23.1,
         "weightedScore": 76.9
-      }
+      },
+      "keyword": "揭露"
     }
   ]
 }

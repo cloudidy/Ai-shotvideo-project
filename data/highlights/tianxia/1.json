@@ -19,6 +19,7 @@
       "title": "助力陛下震怒下旨",
       "description": "皇帝因蛮人掺和公主招亲仪式大发雷霆，下令处置当初为公主招亲提供庇护的相关人",
       "intensity": 7,
+      "keyword": "震怒",
       "interaction": {
         "requiredClicks": 17,
         "duration": 9,
@@ -41,12 +42,13 @@
       "startTime": 60,
       "endTime": 90,
       "type": "climax",
-      "interactionType": "liuyanru-entrance",
-      "emoji": "👸",
+      "interactionType": "super-danmaku-liuyanru",
+      "emoji": "💖",
       "label": "柳如烟出场",
-      "title": "助力柳如烟出场",
+      "title": "助力柳如烟登场",
       "description": "弹幕密度最高的时刻 (802条弹幕)",
       "intensity": 10,
+      "keyword": "登场",
       "interaction": {
         "requiredClicks": 23,
         "duration": 12,
@@ -75,6 +77,7 @@
       "title": "助力纨绔豪横买单",
       "description": "镇北侯二公子苏宇当众放话全场消费由自己买单，尽显嚣张跋扈",
       "intensity": 6,
+      "keyword": "买单",
       "interaction": {
         "requiredClicks": 15,
         "duration": 8,
@@ -103,6 +106,7 @@
       "title": "助力帝叹权贵废柴",
       "description": "皇帝得知镇北侯之子是纨绔废物，感慨其他权贵子弟也难堪大用，对招亲擂台充满忧虑",
       "intensity": 8,
+      "keyword": "废柴",
       "interaction": {
         "requiredClicks": 19,
         "duration": 10,
@@ -131,6 +135,7 @@
       "title": "助力蛮人挑衅皇权",
       "description": "蛮人当街行凶抢民女，口出狂言完全不将大言皇帝放在眼里，冲突彻底激化",
       "intensity": 10,
+      "keyword": "挑衅",
       "interaction": {
         "requiredClicks": 23,
         "duration": 12,

@@ -4,6 +4,7 @@ export interface InteractionPoint {
   time: number; // 触发时间（秒）
   type: 'hit-face' | 'upgrade' | 'revenge' | 'sweet' | 'justice' | 'system' | 'super-danmaku-liuyanru' | 'gold-ingot-hunt' | 'liuyanru-entrance' | 'protagonist-reverse' | 'emperor-rage' | 'challenge-accept';
   title: string;
+  keyword?: string; // 场景关键词（2-4字）
   requiredClicks: number; // 需要点击次数
   duration: number; // 按钮持续时间（秒）
   reward: {

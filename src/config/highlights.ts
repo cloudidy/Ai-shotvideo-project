@@ -7,6 +7,7 @@ export interface HighlightPoint {
   score: number       // 综合得分
   likesCount: number      // 点赞数量
   label: string       // 标签说明
+  keyword: string     // 场景关键词（2-4字，显示在按钮上）
 }
 
 export interface EpisodeHighlights {
@@ -28,7 +29,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '超级弹幕-柳如烟',
         score: 1500,
         likesCount: 200,
-        label: '柳如烟出场 - 退婚宣言引爆舆论'
+        label: '柳如烟出场 - 退婚宣言引爆舆论',
+        keyword: '退婚'
       },
       {
         time: 118,
@@ -37,7 +39,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '打脸',
         score: 1800,
         likesCount: 280,
-        label: '苏尘撕毁退婚书 - 人设反转爽点'
+        label: '苏尘撕毁退婚书 - 人设反转爽点',
+        keyword: '撕书'
       },
       {
         time: 190,
@@ -46,7 +49,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '复仇',
         score: 1600,
         likesCount: 250,
-        label: '皇帝暴怒 - 边军覆没朝堂震动'
+        label: '皇帝暴怒 - 边军覆没朝堂震动',
+        keyword: '暴怒'
       },
       {
         time: 220,
@@ -55,7 +59,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '系统',
         score: 1200,
         likesCount: 180,
-        label: '公主招婿公告 - 不限身份公开招婿'
+        label: '公主招婿公告 - 不限身份公开招婿',
+        keyword: '招婿'
       },
       {
         time: 260,
@@ -64,7 +69,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '复仇',
         score: 1700,
         likesCount: 260,
-        label: '蛮夷挑衅 - 北蛮使团当众羞辱'
+        label: '蛮夷挑衅 - 北蛮使团当众羞辱',
+        keyword: '挑衅'
       },
       {
         time: 295,
@@ -73,7 +79,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '升级',
         score: 2000,
         likesCount: 350,
-        label: '苏尘接下挑战 - 第一集终极悬念'
+        label: '苏尘接下挑战 - 第一集终极悬念',
+        keyword: '接战'
       }
     ]
   },
@@ -82,22 +89,24 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
     duration: 76,
     highlights: [
       {
-        time: 20,
-        timeStr: '0:20',
+        time: 4,
+        timeStr: '0:04',
         type: 'opening',
         interactionType: '升级',
         score: 412,
         likesCount: 72,
-        label: '开场爆发 - 一枝梅串戏'
+        label: '高手坦言遇强敌',
+        keyword: '强敌'
       },
       {
-        time: 30,
-        timeStr: '0:30',
+        time: 49,
+        timeStr: '0:49',
         type: 'climax',
         interactionType: '系统',
         score: 460,
         likesCount: 64,
-        label: '剧情高潮 - 比武招亲'
+        label: '下令测试权贵子弟',
+        keyword: '测试'
       },
       {
         time: 40,
@@ -106,7 +115,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '撒糖',
         score: 344,
         likesCount: 34,
-        label: '角色讨论 - 青楼侠'
+        label: '角色讨论 - 青楼侠',
+        keyword: '侠客'
       },
       {
         time: 50,
@@ -115,7 +125,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '撒糖',
         score: 154,
         likesCount: 8,
-        label: '结尾悬念 - 弹指神通'
+        label: '结尾悬念 - 弹指神通',
+        keyword: '悬念'
       }
     ]
   },
@@ -124,49 +135,54 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
     duration: 184,
     highlights: [
       {
-        time: 10,
-        timeStr: '0:10',
+        time: 5,
+        timeStr: '0:05',
         type: 'opening',
-        interactionType: '升级',
+        interactionType: '复仇',
         score: 325,
         likesCount: 65,
-        label: '开场爆发 - 以德服人'
+        label: '侯爷怒斥孽子',
+        keyword: '怒斥'
       },
       {
-        time: 50,
-        timeStr: '0:50',
+        time: 30,
+        timeStr: '0:30',
         type: 'climax',
         interactionType: '撒糖',
         score: 1258,
         likesCount: 188,
-        label: '捧杀揭露 - 后娘捧杀曝光'
+        label: '捧杀揭露 - 后娘捧杀曝光',
+        keyword: '捧杀'
       },
       {
-        time: 70,
-        timeStr: '1:10',
+        time: 60,
+        timeStr: '1:00',
         type: 'climax',
-        interactionType: '撒糖',
+        interactionType: '升级',
         score: 1509,
         likesCount: 279,
-        label: '全剧最高潮 - 你就宠着他吧'
+        label: '全剧最高潮 - 你就宠着他吧',
+        keyword: '宠他'
       },
       {
-        time: 90,
-        timeStr: '1:30',
+        time: 105,
+        timeStr: '1:45',
         type: 'climax',
-        interactionType: '撒糖',
+        interactionType: '审判',
         score: 1167,
         likesCount: 203,
-        label: '情感爆发 - 好可爱啊'
+        label: '男主戳穿伪装',
+        keyword: '戳穿'
       },
       {
-        time: 160,
-        timeStr: '2:40',
-        type: 'closing',
-        interactionType: '撒糖',
-        score: 399,
-        likesCount: 51,
-        label: '结尾悬念 - 穿越剧讨论'
+        time: 136,
+        timeStr: '2:16',
+        type: 'climax',
+        interactionType: '复仇',
+        score: 1500,
+        likesCount: 300,
+        label: '揭露弑母真相',
+        keyword: '弑母'
       }
     ]
   },
@@ -181,7 +197,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '系统',
         score: 346,
         likesCount: 76,
-        label: '开场爆发 - 卧薪尝胆'
+        label: '开场爆发 - 卧薪尝胆',
+        keyword: '尝胆'
       },
       {
         time: 100,
@@ -190,7 +207,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '升级',
         score: 328,
         likesCount: 42,
-        label: '剧情讨论 - 反面人物在家'
+        label: '剧情讨论 - 反面人物在家',
+        keyword: '反派'
       },
       {
         time: 140,
@@ -199,7 +217,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '升级',
         score: 312,
         likesCount: 68,
-        label: '角色对比 - 小秦氏心机'
+        label: '角色对比 - 小秦氏心机',
+        keyword: '心机'
       },
       {
         time: 150,
@@ -208,7 +227,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '其他',
         score: 519,
         likesCount: 147,
-        label: '搞笑吐槽 - 年龄大记忆力不好'
+        label: '搞笑吐槽 - 年龄大记忆力不好',
+        keyword: '搞笑'
       },
       {
         time: 160,
@@ -217,7 +237,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '系统',
         score: 434,
         likesCount: 48,
-        label: '结尾悬念 - 哎呀'
+        label: '结尾悬念 - 哎呀',
+        keyword: '哎呀'
       }
     ]
   },
@@ -232,7 +253,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '复仇',
         score: 547,
         likesCount: 119,
-        label: '开场爆发 - 不测就没戏看了'
+        label: '开场爆发 - 不测就没戏看了',
+        keyword: '测试'
       },
       {
         time: 30,
@@ -241,7 +263,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '升级',
         score: 175,
         likesCount: 29,
-        label: '角色演绎 - 纨绔样子太像'
+        label: '角色演绎 - 纨绔样子太像',
+        keyword: '纨绔'
       },
       {
         time: 50,
@@ -250,7 +273,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '撒糖',
         score: 174,
         likesCount: 18,
-        label: '剧情讨论 - 其实他知道'
+        label: '剧情讨论 - 其实他知道',
+        keyword: '知情'
       },
       {
         time: 60,
@@ -259,7 +283,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '打脸',
         score: 210,
         likesCount: 50,
-        label: '高光时刻 - 好帅落地'
+        label: '高光时刻 - 好帅落地',
+        keyword: '帅!'
       },
       {
         time: 80,
@@ -268,7 +293,8 @@ export const tianxiaHighlights: EpisodeHighlights[] = [
         interactionType: '撒糖',
         score: 493,
         likesCount: 135,
-        label: '结尾悬念 - 让你走了吗'
+        label: '结尾悬念 - 让你走了吗',
+        keyword: '别走'
       }
     ]
   }
