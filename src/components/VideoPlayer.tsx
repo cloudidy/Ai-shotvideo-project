@@ -7,13 +7,42 @@ import { interactionEffects, generateInteractionPoints, generateInteractionPoint
 import AncientStyleButton from './AncientStyleButtons'
 import SuperDanmakuButton from './SuperDanmakuButton'
 
-interface HighlightPoint {
-  id: string
-  time: number
-  title: string
-  type: string
-  description?: string
-  score?: number
+// API类型 → 按钮类型映射
+const typeToButton: Record<string, string> = {
+  'emperor-rage': 'revenge',
+  'challenge-accept': 'upgrade',
+  'protagonist-reverse': 'hit-face',
+  'liuyanru-entrance': 'sweet',
+  'gold-ingot-hunt': 'system',
+  'super-danmaku-liuyanru': 'super-danmaku-liuyanru',
+  'hit-face': 'hit-face',
+  'upgrade': 'upgrade',
+  'revenge': 'revenge',
+  'sweet': 'sweet',
+  'justice': 'justice',
+  'system': 'system',
+}
+
+// 从 API 高光点数据生成互动点
+function interactionPointsFromHighlights(highlights: any[]): InteractionPoint[] {
+  return highlights.map((h: any, index: number) => {
+    const rawType = h.interactionType || 'system'
+    const buttonType = typeToButton[rawType] || 'hit-face'
+    return {
+      id: h.id || `highlight-${index}`,
+      time: h.startTime ?? h.time,
+      type: buttonType as InteractionPoint['type'],
+      title: h.title || `助力${h.label || ''}`,
+      keyword: h.keyword,
+      requiredClicks: Math.floor(Math.random() * 6) + 5,
+      duration: h.interaction?.duration || 8,
+      reward: {
+        score: h.interaction?.reward || 100 + index * 20,
+        effect: h.interaction?.effect || `${h.label || ''}特效`,
+        sound: h.interaction?.sound || '/sounds/hit.mp3',
+      },
+    }
+  })
 }
 
 interface VideoPlayerProps {
@@ -23,9 +52,10 @@ interface VideoPlayerProps {
   onEnded?: () => void
   dramaId?: string
   episodeName?: string
+  highlights?: any[]  // API 高光点数据，优先使用
 }
 
-export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnded, dramaId, episodeName }: VideoPlayerProps) {
+export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnded, dramaId, episodeName, highlights }: VideoPlayerProps) {
   const videoRef = useRef<HTMLVideoElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const [currentTime, setCurrentTime] = useState(0)
@@ -38,6 +68,7 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
   const [triggeredPoints, setTriggeredPoints] = useState<Set<string>>(new Set())
   const [showEffect, setShowEffect] = useState(false)
   const [completedType, setCompletedType] = useState<string>('')
+  const [completedKeyword, setCompletedKeyword] = useState<string>('')
   const [timeLeft, setTimeLeft] = useState(0)
   const timerRef = useRef<NodeJS.Timeout | null>(null)
   const activeInteractionRef = useRef<InteractionPoint | null>(null)
@@ -89,20 +120,32 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
     setTimeLeft(0)
   }, [config.url])
 
+  // 根据高光点数据生成互动点
+  const buildInteractionPoints = useCallback((highlightsData: any[], videoDuration: number) => {
+    if (highlightsData && highlightsData.length > 0) {
+      return interactionPointsFromHighlights(highlightsData)
+    }
+    if (dramaId && episodeName) {
+      return generateInteractionPointsFromHighlights(dramaId, episodeName, videoDuration)
+    }
+    return generateInteractionPoints(videoDuration)
+  }, [dramaId, episodeName])
+
   // 视频加载后根据时长生成互动点
   const handleLoadedMetadata = () => {
     if (videoRef.current) {
       const videoDuration = videoRef.current.duration
       setDuration(videoDuration)
-      let points: InteractionPoint[]
-      if (dramaId && episodeName) {
-        points = generateInteractionPointsFromHighlights(dramaId, episodeName, videoDuration)
-      } else {
-        points = generateInteractionPoints(videoDuration)
-      }
-      setInteractionPoints(points)
+      setInteractionPoints(buildInteractionPoints(highlights || [], videoDuration))
     }
   }
+
+  // API 高光点数据到达后，重新生成互动点
+  useEffect(() => {
+    if (highlights && highlights.length > 0 && duration > 0) {
+      setInteractionPoints(buildInteractionPoints(highlights, duration))
+    }
+  }, [highlights, duration, buildInteractionPoints])
 
   // 监听视频时间更新
   const handleTimeUpdate = useCallback(() => {
@@ -177,6 +220,7 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
       if (timerRef.current) clearInterval(timerRef.current)
       setTriggeredPoints((prev) => new Set([...prev, activeInteraction.id]))
       setCompletedType(activeInteraction.type)
+      setCompletedKeyword(activeInteraction.keyword || effect?.title || '')
       setShowEffect(true)
       const hitAudio = new Audio(activeInteraction.reward.sound)
       hitAudio.volume = 0.8
@@ -214,6 +258,7 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
         ref={videoRef}
         className="w-full h-full object-contain"
         src={config.url}
+        crossOrigin="anonymous"
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={handleLoadedMetadata}
         onPlay={() => setIsPlaying(true)}
@@ -320,8 +365,8 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
               </motion.div>
             )}
 
-            {/* 中央互动区域 */}
-            <div className={`absolute inset-0 flex items-center justify-center pointer-events-auto ${isSuperDanmaku ? '' : 'pt-20'}`}>
+            {/* 中央互动区域 - 不覆盖底部进度条 */}
+            <div className={`absolute top-0 left-0 right-0 bottom-20 flex items-center justify-center pointer-events-auto ${isSuperDanmaku ? '' : 'pt-20'}`}>
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -334,7 +379,8 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
                     onClick={handleClick}
                     clickCount={clickCount}
                     maxClicks={activeInteraction.requiredClicks}
-                    characterName="柳如烟"
+                    characterName={dramaId === 'naisui' ? '太奶奶' : '柳如烟'}
+                    variant={dramaId === 'naisui' ? 'jade' : 'heart'}
                   />
                 ) : (
                   <>
@@ -360,6 +406,7 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
                       clickCount={clickCount}
                       maxClicks={activeInteraction.requiredClicks}
                       type={activeInteraction.type as any}
+                      keyword={activeInteraction.keyword}
                     />
 
                     <motion.div
@@ -379,7 +426,7 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
 
       {/* 特效叠加层 */}
       <AnimatePresence>
-        {showEffect && <InteractionOverlay type={completedType} />}
+        {showEffect && <InteractionOverlay type={completedType} keyword={completedKeyword} />}
       </AnimatePresence>
 
       {/* 底部进度条 */}
@@ -399,12 +446,26 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
             const isTriggered = triggeredPoints.has(point.id)
             const isSuper = point.type === 'super-danmaku-liuyanru'
             return (
-              <div
+              <button
                 key={point.id}
-                className={`absolute top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full border-2 border-white shadow-lg ${
+                className={`absolute top-1/2 -translate-y-1/2 w-3 h-3 rounded-full border-2 border-white shadow-lg cursor-pointer hover:scale-150 transition-transform z-10 ${
                   isTriggered ? 'bg-gray-500' : isSuper ? 'bg-pink-500 animate-pulse' : 'bg-yellow-400 animate-pulse'
                 }`}
-                style={{ left: `${pointPercent}%` }}
+                style={{ left: `${pointPercent}%`, transform: 'translate(-50%, -50%)' }}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  if (videoRef.current) {
+                    videoRef.current.currentTime = point.time
+                    setCurrentTime(point.time)
+                    // 重置已触发状态，让互动可以重新出现
+                    setTriggeredPoints(prev => {
+                      const next = new Set(prev)
+                      next.delete(point.id)
+                      return next
+                    })
+                  }
+                }}
+                title={`${Math.floor(point.time / 60)}:${String(Math.floor(point.time % 60)).padStart(2, '0')} - ${point.title}`}
               />
             )
           })}
@@ -452,20 +513,18 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
   )
 }
 
-function InteractionOverlay({ type }: { type: string }) {
+function InteractionOverlay({ type, keyword }: { type: string; keyword?: string }) {
   const isSuperDanmaku = type === 'super-danmaku-liuyanru'
 
-  const normalColors: Record<string, string> = {
+  const colorKey: Record<string, string> = {
     'hit-face': '#DC2626', 'upgrade': '#F59E0B', 'revenge': '#7F1D1D',
     'sweet': '#EC4899', 'justice': '#FBBF24', 'system': '#0891B2',
+    'super-danmaku-liuyanru': '#FF69B4',
   }
+  const bgColor = colorKey[type] || '#DC2626'
 
-  const superColors = {
-    flash: '#FF69B4',
-  }
-
-  const colors = isSuperDanmaku ? superColors : normalColors
-  const colorKey = (normalColors as any)[type] || '#DC2626'
+  // 要显示的文字：优先用关键词
+  const displayText = keyword || '成功'
 
   // 超级弹幕完成特效
   if (isSuperDanmaku) {
@@ -481,30 +540,19 @@ function InteractionOverlay({ type }: { type: string }) {
           animate={{ opacity: [0, 0.7, 0] }}
           transition={{ duration: 0.6 }}
           className="absolute inset-0"
-          style={{
-            background: 'linear-gradient(180deg, rgba(255,105,180,0.8), rgba(255,20,147,0.8))',
-          }}
+          style={{ background: 'linear-gradient(180deg, rgba(255,105,180,0.8), rgba(255,20,147,0.8))' }}
         />
-
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
-          animate={{ scale: [0, 3, 2.2], opacity: [0, 1, 0] }}
-          transition={{ duration: 1.2 }}
+          animate={{ scale: [0, 1, 8, 6], opacity: [0, 1, 1, 0] }}
+          transition={{ duration: 1.5, times: [0, 0.2, 0.7, 1] }}
           className="absolute inset-0 flex items-center justify-center"
         >
-          <div className="text-center">
-            <div className="text-8xl">💖</div>
-            <div className="text-5xl font-black text-white drop-shadow-2xl mt-4">
-              柳如烟登场啦！！
-            </div>
-            <div className="text-2xl text-yellow-200 font-bold mt-2">
-              女神降临！粉丝爆哭！
-            </div>
-          </div>
+          <span className="text-7xl font-black text-white drop-shadow-2xl" style={{ textShadow: '0 0 40px rgba(255,105,180,1), 0 0 80px rgba(255,20,147,0.8)' }}>
+            {displayText}
+          </span>
         </motion.div>
-
-        {/* 超级粒子爆炸！全屏幕粉色弹幕乱飞 */}
-        {Array.from({ length: 60 }).map((_, i) => (
+        {Array.from({ length: 30 }).map((_, i) => (
           <motion.div
             key={i}
             initial={{ x: '50%', y: '50%', scale: 0 }}
@@ -515,31 +563,18 @@ function InteractionOverlay({ type }: { type: string }) {
               opacity: [1, 1, 0],
               rotate: Math.random() * 360
             }}
-            transition={{
-              duration: 1.2,
-              delay: Math.random() * 0.5,
-              ease: 'easeOut',
-            }}
+            transition={{ duration: 1.2, delay: Math.random() * 0.5, ease: 'easeOut' }}
             className="absolute text-2xl font-bold"
             style={{ color: ['#FF69B4', '#FFB6C1', '#FFD700', '#FFFFFF', '#FF1493'][i % 5] }}
           >
-            {['柳如烟！', '女神！', '我爱你！', '啊啊啊！', '登场！', '太美了！', '我来了！', '看这里！'][i % 8]}
+            💖
           </motion.div>
         ))}
       </motion.div>
     )
   }
 
-  const normalEmojis: Record<string, string> = {
-    'hit-face': '👊', 'upgrade': '⚔️', 'revenge': '🔥',
-    'sweet': '💕', 'justice': '⚖️', 'system': '💻',
-  }
-  
-  const normalTitles: Record<string, string> = {
-    'hit-face': '打脸成功！', 'upgrade': '升级成功！', 'revenge': '复仇成功！',
-    'sweet': '撒糖成功！', 'justice': '审判成功！', 'system': '系统激活！',
-  }
-
+  // 普通特效 — 关键词从小变大
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -547,23 +582,29 @@ function InteractionOverlay({ type }: { type: string }) {
       exit={{ opacity: 0 }}
       className="absolute inset-0 pointer-events-none z-30"
     >
+      {/* 背景闪光 */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: [0, 0.5, 0] }}
         transition={{ duration: 0.4 }}
         className="absolute inset-0"
-        style={{ backgroundColor: colorKey }}
+        style={{ backgroundColor: bgColor }}
       />
+      {/* 关键词从小变大 */}
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: [0, 2.5, 2], opacity: [0, 1, 0] }}
-        transition={{ duration: 0.8 }}
+        animate={{ scale: [0, 1, 7, 5], opacity: [0, 1, 1, 0] }}
+        transition={{ duration: 1.5, times: [0, 0.15, 0.6, 1] }}
         className="absolute inset-0 flex items-center justify-center"
       >
-        <div className="text-8xl font-black text-white drop-shadow-2xl">
-          {normalEmojis[type]} {normalTitles[type] || '成功！'}
-        </div>
+        <span
+          className="text-6xl font-black text-white drop-shadow-2xl"
+          style={{ textShadow: `0 0 30px ${bgColor}, 0 0 60px ${bgColor}` }}
+        >
+          {displayText}
+        </span>
       </motion.div>
+      {/* 粒子爆炸 */}
       {Array.from({ length: 20 }).map((_, i) => (
         <motion.div
           key={i}
@@ -576,7 +617,7 @@ function InteractionOverlay({ type }: { type: string }) {
           }}
           transition={{ duration: 0.7, delay: Math.random() * 0.3 }}
           className="absolute w-5 h-5 rounded-full"
-          style={{ backgroundColor: colorKey }}
+          style={{ backgroundColor: bgColor }}
         />
       ))}
     </motion.div>
