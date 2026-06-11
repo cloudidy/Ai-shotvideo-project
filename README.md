@@ -67,7 +67,7 @@ npm run dev
 
 ### 访问应用
 
-打开浏览器访问: http://localhost:3000
+在线访问: http://1.14.253.108:3000
 
 ---
 
@@ -204,4 +204,4 @@ Ai-shotvideo-project/
 npm run dev
 ```
 
-然后访问 http://localhost:3000 开始体验！
+然后访问 http://1.14.253.108:3000 开始体验！
