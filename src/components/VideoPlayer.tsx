@@ -364,7 +364,7 @@ export default function VideoPlayer({ config, onScoreUpdate, onTimeUpdate, onEnd
                     transition={{ duration: 0.8, repeat: Infinity }}
                   >
                     <span className="text-white font-black text-lg drop-shadow-lg">
-                      💖 万众期待！柳如烟大帝登场！💖
+                      💖 万众期待！{dramaId === 'naisui' ? '太奶奶' : '柳如烟大帝'}登场！💖
                     </span>
                   </motion.div>
                 </div>
