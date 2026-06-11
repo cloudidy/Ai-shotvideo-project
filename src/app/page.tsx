@@ -13,48 +13,30 @@ import {
   type HighlightPoint,
 } from '@/lib/highlights'
 
+// 腾讯云COS视频地址
+const COS_BASE = 'https://ai-video-demo-1442345125.cos.ap-guangzhou.myqcloud.com/%E7%9F%AD%E5%89%A7%E8%A7%86%E9%A2%91/%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E7%BA%A8%E7%BB%94'
+
 // 短剧数据配置
 const dramaList = [
   {
     id: 'tianxia',
     name: '天下第一纨绔',
     emoji: '👑',
-    episodes: Array.from({ length: 24 }, (_, i) => ({
-      id: i + 1,
-      name: `第${i + 1}集`,
-      path: `/video/天下第一纨绔/第${i + 1}集.mp4`,
-    })),
+    episodes: [
+      { id: 1, name: '第1集', path: `${COS_BASE}/%E7%AC%AC1%E9%9B%86.mp4` },
+      { id: 2, name: '第2集', path: `${COS_BASE}/%E7%AC%AC2%E9%9B%86.mp4` },
+      { id: 3, name: '第3集', path: `${COS_BASE}/%E7%AC%AC3%E9%9B%86.mp4` },
+      { id: 4, name: '第4集', path: `${COS_BASE}/%E7%AC%AC4%E9%9B%86.mp4` },
+      { id: 5, name: '第5集', path: `${COS_BASE}/%E7%AC%AC5%E9%9B%86.mp4` },
+    ],
   },
-  {
-    id: 'naisui',
-    name: '十八岁太奶奶驾到',
-    emoji: '👵',
-    episodes: Array.from({ length: 5 }, (_, i) => ({
-      id: i + 1,
-      name: `第${i + 1}集`,
-      path: `/video/十八岁太奶奶驾到/第${i + 1}集.mp4`,
-    })),
-  },
-  {
-    id: 'lihun',
-    name: '幸得相遇离婚时',
-    emoji: '💔',
-    episodes: Array.from({ length: 5 }, (_, i) => ({
-      id: i + 1,
-      name: `第${i + 1}集`,
-      path: `/video/幸得相遇离婚时/第${i + 1}集.mp4`,
-    })),
-  },
-  {
-    id: 'beipai',
-    name: '北派寻宝日记',
-    emoji: '🗺️',
-    episodes: Array.from({ length: 19 }, (_, i) => ({
-      id: i + 1,
-      name: `第${63 + i}集`,
-      path: `/video/北派寻宝日记/第${63 + i}集.mp4`,
-    })),
-  },
+  // 后续上传更多视频后可添加其他剧集
+  // {
+  //   id: 'naisui',
+  //   name: '十八岁太奶奶驾到',
+  //   emoji: '👵',
+  //   episodes: [...],
+  // },
 ]
 
 export default function Home() {
@@ -229,6 +211,7 @@ export default function Home() {
             onEnded={handleNextEpisode}
             dramaId={selectedDrama.id}
             episodeName={selectedVideo.name}
+            highlights={highlightsData?.highlights}
           />
         </div>
 
